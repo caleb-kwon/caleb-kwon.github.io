@@ -13,7 +13,7 @@ navbar:
     - icon: fa-user-alt fa-lg
       href: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+      href: https://www.linkedin.com/in/caleb-kwon-35b46110b/
 output:
   html_document:
     theme: paper
