@@ -1,0 +1,24 @@
+---
+output: 
+  html_document:
+      toc: true
+      number_sections: true
+      toc_float:
+        collapsed: false
+        smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+# Cleaning Data 
+
+## Reading Data
+
+
+## Winsorizing
+
+
+# Regressions
+
+# Outputting Results 
+
