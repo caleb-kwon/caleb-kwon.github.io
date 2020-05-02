@@ -8,7 +8,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Teaching"
-    - href: teaching.html 
+      href: teaching.html 
 output:
   html_document:
     theme: paper
