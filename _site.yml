@@ -3,12 +3,17 @@ output_dir: "."
 navbar:
   title: "Caleb Kwon"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Research"
+      href: research.html
     - text: "Teaching"
-      href: teaching.html 
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:ckwon@hbs.edu
+    - icon: fa-user-alt fa-lg
+      href: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
 output:
   html_document:
     theme: paper

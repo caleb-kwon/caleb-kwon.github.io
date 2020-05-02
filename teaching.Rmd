@@ -1,5 +1,16 @@
 ---
-title: "Teaching"
 ---
 
-More about this website.
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+##### Harvard University -- Harvard Business School
+Technology and Operations Management Required Curriculum  [Fall '19 and Fall '20]
+
+
+##### Northwestern University -- Kellogg School of Management 
+Undergraduate Courses: Principles of Finance, Foreign Exchange Markets, Derivatives I, Derivatives II
+
+MBA: Finance I, Finance II, Tax Strategy, Business Strategy
+
+##### Simon Fraser University 
+Intro Micro, Intro Macro, Intermediate Macro. 

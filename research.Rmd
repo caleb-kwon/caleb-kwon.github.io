@@ -1,0 +1,11 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+1. [Supply Chain Disruptions and Causal Outcomes: Evidence from the Bankruptcy of Hanjin Shipping (2018) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272).
+  - Reject and Resubmit. 
+
+2. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2019)](https://www.dropbox.com/s/8362vg2cn57sgld/Estimation-of-the-number-of-mixture-components.pdf?raw=1). [With Eric Mbakop]
+  - Revise and Resubmit, **The Annals of Statistics** 
+3. Supply Chain Spillovers in Corporate Social Responsibility Investments (2020) [With Jun Li and Andrew Wu]
