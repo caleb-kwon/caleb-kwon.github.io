@@ -1,9 +1,14 @@
-name: "my-website"
+name: "Caleb Kwon"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Caleb Kwon"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
