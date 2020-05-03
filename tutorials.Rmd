@@ -1,4 +1,5 @@
 ---
+title: "&nbsp;"
 output: 
   html_document:
       toc: true
@@ -9,6 +10,14 @@ output:
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+
+Here is some code for procedures commonly used in empirical analysis. 
+```{r chunk}
+library(data.table)
+library(magrittr)
+DT <- iris %>%
+  head()
+```
 
 # Cleaning Data 
 
