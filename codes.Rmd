@@ -12,7 +12,9 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-I'm a huge fan of R. To share my enthusiasm, I've provided some code for procedures commonly used in empirical analysis in Operations Management and Economics. They probably aren't the most efficient, but they get the job done and are reasonably quick and easy to read (even months later). Please email me if you spot any errors or have any questions or suggestions! 
+I'm a huge fan of R. To share my enthusiasm, I've provided some code for procedures commonly used in empirical analysis in Operations Management and Economics. The code is mostly self-contained, but requires a basic understanding of `data.table` and piping `%>%`. 
+
+The code should be fast (due to `data.table` and other user contributed packages and not me). But the primary focus was on readability, there are probably much faster alternatives to the codes I present below. Please email me if you spot any errors or have any questions or suggestions! I also take requests, so please email me if you think that there are commonly used routines that I've missed. 
 
 ```{r echo=FALSE, message=FALSE}
 library(pacman)
@@ -179,15 +181,29 @@ DT[,(winz_var) := lapply(.SD, Winsorize, minval = NULL, maxval = NULL,  probs = 
 
 ## Trimming
 
+People use 'trimming' to mean two different things: (1) Removing observations that fall above or below a certain quantile, or (2) removing observations that don't fit a certain criterion, e.g., return on equity is smaller than 0.01. I present code for both meanings below. 
+
 ```{r trimming, eval = F}
-# Separately 
+
+# Definition 1: Delete obs. where return on equity falls outside the (2%, 98%) percentiles
+quantile_roe_98 <- quantile(DT$roe, probs = 0.98)
+quantile_roe_02 <- quantile(DT$roe, probs = 0.02)
+
+DT <- DT %>%
+  .[!(roe > quantile_roe_98)] %>%  # Delete observations that fall 
+  
+  .[!(roe < quantile_roe_02)]
+
+
+
+# Definition 2: Separately 
 DT <- DT %>%
   .[roe > 0.01] %>%    # Only choose samples where return on equity is greater than 0.01
   .[!(at == 0)] %>%    # Drop obs that have assets equal to 0
   .[invt < 500] %>%    # Drop obs that have inventories smaller than 500
   .[!is.na(cogs)]      # Drop obs that have missing cost of goods sold values
 
-# Altogether: I prefer the method above, as it is easier to read. 
+# Definition 2: Altogether: I prefer the method above, as it is easier to read. 
 DT <- DT %>%
   .[roe > 0.01 & !(at ==0) & invt < 500 & !(is.na(cogs))]
 ```
@@ -196,13 +212,26 @@ DT <- DT %>%
 ***
 # Regressions
 ***
-Now, onto the fun part! There are many packages that run regressions very efficiently in R. My two favorites are the packages `lfe` and `fixest`. I currently favor the former, as the latter is not compatible with `stargazer`. However, `fixest` is often faster and includes a very fast Poisson fixed effects procedure which `lfe` does not have. 
+Now, onto the fun part!There are many packages that run regressions very efficiently in R. My two favorites are the packages `lfe` and `fixest`. I currently favor the former, as the latter is not compatible with `stargazer`. However, `fixest` is often faster and includes a very fast Poisson fixed effects procedure which `lfe` does not have. 
 
 ## Ordinary Least Squares
+
+```{r OLS}
+# Initialize dataset (should already be in R)
+DT <- iris %>% setDT()
+
+# Run regression
+reg_Sepal.Length_Sepal.Width <- felm(Sepal.Length ~ Sepal.Width, data = DT)
+
+```
+
+Consistent naming conventions are important when you run many regressions and need to later export them into $LaTeX$. I follow the convention of starting with reg and then appending in the name of the dependent variable and the most independent variable of interest, e.g. `reg_DEPVAR_INDEPVAR`. 
 
 ## Poisson 
 
 ## Zero Inflated Poisson 
+
+
 
 # Fixed Effects
 
