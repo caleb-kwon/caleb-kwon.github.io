@@ -1,0 +1,102 @@
+---
+title: "&nbsp;"
+output: 
+  html_document:
+      css: styles.css
+      toc: true
+      number_sections: true
+      toc_float:
+        collapsed: false
+        smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+I'm a huge fan of R. To share my enthusiasm, I've provided some code for procedures commonly used in empirical analysis in the social sciences. They probably aren't the most efficient, but they get the job done and are reasonably quick and easy to read. Please email me if you spot any erorrs or have any questions or suggestions! 
+
+```{r echo=FALSE, message=FALSE}
+library(pacman)
+
+pacman::p_load(data.table, dplyr, magrittr, stargazer, lfe, fixest, lubridate, zoo, stringr,
+               janitor, purrr, MatchIt)
+
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(message=FALSE)
+knitr::opts_chunk$set(warning=FALSE)
+knitr::opts_chunk$set(size="footnotesize")
+
+```
+
+
+# WRDS
+***
+Because data from WRDS is one of the most common sources of data to use in analysis, I will first go over how to get data from WRDS in R. 
+
+
+
+# Data Preliminaries
+***
+
+## Setup
+
+Instead of loading each package manually, I use the following approach:
+```{r load-packages}
+# First load the package 'pacman'
+library(pacman)
+
+# Load every other package required using p_load
+pacman::p_load(data.table, magrittr, stargazer, fixest, lfe, readstata13, rmatio, openxlsx)
+
+```
+
+This way, I dont' have to keep writing out library() over and over again. 
+
+## Reading Data
+
+We typically encounter three types of data files: (1) .csv, (2) .dat and (3) .xlsx, and (4) .mat Below are the packages that I use for the four types.
+
+```{r read_languages, eval = F}
+
+
+# CSV
+CSV_DT <- data.table::fread("/Users/ckwon/Dropbox/Academic Research/data.csv")
+
+# DAT
+dat_DT <- readstata13::read.dta13("/Users/ckwon/Dropbox/Academic Research/data.dat")
+
+# XLSX
+CSV_DT <- readstat13::read.dta13("/Users/ckwon/Dropbox/Academic Research/data.dat")
+
+
+```
+
+## WRDS Data 
+
+
+
+
+## Winsorizing
+
+## Trimming
+
+***
+# Regressions
+***
+
+## Ordinary Least Squares
+
+## Poisson 
+
+## Zero Inflated Poisson 
+
+# Fixed Effects
+
+# Difference in Differences
+
+# Regression Discontinuity
+
+# Instrumental Variables 
+
+# Presenting Results
+***

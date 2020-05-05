@@ -1,12 +1,14 @@
 name: "Caleb Kwon"
 output_dir: "."
 navbar:
-  title: "Caleb Kwon"
+  title: "<img id=\"logo\" style=\"width: 100px;\" src=\"hbs.jpg\" />"
   left:
     - text: "Research"
       href: research.html
     - text: "Teaching"
       href: teaching.html
+    - text: "Codes"
+      href: codes.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:ckwon@hbs.edu

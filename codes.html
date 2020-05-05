@@ -399,25 +399,77 @@ div.tocify {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>Here is some code for procedures commonly used in empirical analysis.</p>
-<pre class="r"><code>library(data.table)
-library(magrittr)
-DT &lt;- iris %&gt;%
-  head()</code></pre>
-<div id="cleaning-data" class="section level1">
-<h1><span class="header-section-number">1</span> Cleaning Data</h1>
+<p>I’m a huge fan of R. To share my enthusiasm, I’ve provided some code for procedures commonly used in empirical analysis in the social sciences. They probably aren’t the most efficient, but they get the job done and are reasonably quick and easy to read. Please email me if you spot any erorrs or have any questions or suggestions!</p>
+<div id="wrds" class="section level1">
+<h1><span class="header-section-number">1</span> WRDS</h1>
+<hr />
+<p>Because data from WRDS is one of the most common sources of data to use in analysis, I will first go over how to get data from WRDS in R.</p>
+</div>
+<div id="data-preliminaries" class="section level1">
+<h1><span class="header-section-number">2</span> Data Preliminaries</h1>
+<hr />
+<div id="setup" class="section level2">
+<h2><span class="header-section-number">2.1</span> Setup</h2>
+<p>Instead of loading each package manually, I use the following approach:</p>
+<pre class="r"><code># First load the package &#39;pacman&#39;
+library(pacman)
+
+# Load every other package required using p_load
+pacman::p_load(data.table, magrittr, stargazer, fixest, lfe, 
+    readstata13, rmatio, openxlsx)</code></pre>
+<p>This way, I dont’ have to keep writing out library() over and over again.</p>
+</div>
 <div id="reading-data" class="section level2">
-<h2><span class="header-section-number">1.1</span> Reading Data</h2>
+<h2><span class="header-section-number">2.2</span> Reading Data</h2>
+<p>We typically encounter three types of data files: (1) .csv, (2) .dat and (3) .xlsx, and (4) .mat Below are the packages that I use for the four types.</p>
+<pre class="r"><code># CSV
+CSV_DT &lt;- data.table::fread(&quot;/Users/ckwon/Dropbox/Academic Research/data.csv&quot;)
+
+# DAT
+dat_DT &lt;- readstata13::read.dta13(&quot;/Users/ckwon/Dropbox/Academic Research/data.dat&quot;)
+
+# XLSX
+CSV_DT &lt;- readstat13::read.dta13(&quot;/Users/ckwon/Dropbox/Academic Research/data.dat&quot;)</code></pre>
+</div>
+<div id="wrds-data" class="section level2">
+<h2><span class="header-section-number">2.3</span> WRDS Data</h2>
 </div>
 <div id="winsorizing" class="section level2">
-<h2><span class="header-section-number">1.2</span> Winsorizing</h2>
+<h2><span class="header-section-number">2.4</span> Winsorizing</h2>
+</div>
+<div id="trimming" class="section level2">
+<h2><span class="header-section-number">2.5</span> Trimming</h2>
+<hr />
 </div>
 </div>
 <div id="regressions" class="section level1">
-<h1><span class="header-section-number">2</span> Regressions</h1>
+<h1><span class="header-section-number">3</span> Regressions</h1>
+<hr />
+<div id="ordinary-least-squares" class="section level2">
+<h2><span class="header-section-number">3.1</span> Ordinary Least Squares</h2>
 </div>
-<div id="outputting-results" class="section level1">
-<h1><span class="header-section-number">3</span> Outputting Results</h1>
+<div id="poisson" class="section level2">
+<h2><span class="header-section-number">3.2</span> Poisson</h2>
+</div>
+<div id="zero-inflated-poisson" class="section level2">
+<h2><span class="header-section-number">3.3</span> Zero Inflated Poisson</h2>
+</div>
+</div>
+<div id="fixed-effects" class="section level1">
+<h1><span class="header-section-number">4</span> Fixed Effects</h1>
+</div>
+<div id="difference-in-differences" class="section level1">
+<h1><span class="header-section-number">5</span> Difference in Differences</h1>
+</div>
+<div id="regression-discontinuity" class="section level1">
+<h1><span class="header-section-number">6</span> Regression Discontinuity</h1>
+</div>
+<div id="instrumental-variables" class="section level1">
+<h1><span class="header-section-number">7</span> Instrumental Variables</h1>
+</div>
+<div id="presenting-results" class="section level1">
+<h1><span class="header-section-number">8</span> Presenting Results</h1>
+<hr />
 </div>
 
 

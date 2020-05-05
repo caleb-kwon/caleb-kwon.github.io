@@ -6,10 +6,25 @@ output:
 
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
+<!-- <script> -->
+<!--    $(document).ready(function() { -->
+<!--      $head = $('#header'); -->
+<!--      $head.prepend('<img src=\"hbs.jpg\" style=\"float: right;width: 150px;\"/>') -->
+<!--    }); -->
+<!-- </script> -->
 
-<img src="images/caleb.png" style="width:30%;  margin-right: 20px" align="left">
 
-I am a first year PhD student in Operations Management at Harvard University (GSAS and Business School). My research interests are in supply chains and applied econometrics. Prior to Harvard, I was a research assistant at the Kellogg School of Management in Finance and Econometrics. 
+
+<div style="margin-bottom:25px;">
+</div>
+
+<img src="images/caleb.png" height = "270" style ="display:block; margin-left: auto; margin-right:auto;">
+
+***
+
+# Caleb Kwon 
+
+
+I am a PhD student in Operations Management at Harvard University. My research interests are in supply chains and applied econometrics. Prior to Harvard, I was a research assistant at the Kellogg School of Management in Finance and Econometrics. And before that, I was an undergraduate student in Economics at Simon Fraser University. 
 
 You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1).
