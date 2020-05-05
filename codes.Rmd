@@ -12,7 +12,7 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-I'm a huge fan of R. To share my enthusiasm, I've provided some code for procedures commonly used in empirical analysis in the social sciences. They probably aren't the most efficient, but they get the job done and are reasonably quick and easy to read. Please email me if you spot any erorrs or have any questions or suggestions! 
+I'm a huge fan of R. To share my enthusiasm, I've provided some code for procedures commonly used in empirical analysis in Operations Management and Economics. They probably aren't the most efficient, but they get the job done and are reasonably quick and easy to read (even months later). Please email me if you spot any errors or have any questions or suggestions! 
 
 ```{r echo=FALSE, message=FALSE}
 library(pacman)
@@ -20,7 +20,7 @@ library(pacman)
 pacman::p_load(data.table, dplyr, magrittr, stargazer, lfe, fixest, lubridate, zoo, stringr,
                janitor, purrr, MatchIt)
 
-knitr::opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=FALSE)
 knitr::opts_chunk$set(cache=TRUE)
 knitr::opts_chunk$set(message=FALSE)
 knitr::opts_chunk$set(warning=FALSE)
@@ -28,13 +28,100 @@ knitr::opts_chunk$set(size="footnotesize")
 
 ```
 
-
+***
 # WRDS
 ***
-Because data from WRDS is one of the most common sources of data to use in analysis, I will first go over how to get data from WRDS in R. 
+Because WRDS contains datasets that are very popular among OM scholars and economists, I begin with code that allows you to fetch data from WRDS in R directly, and not require you to log into WRDS each time and painstakingly choose the dataset and variables over and over again. 
+
+You can find this tutorial on WRDS, but here is a summary and example codes. 
+
+Setup (for OS X): 
+  
+  1. Install and load the package `RPostgres`. 
+  2. Using terminal create the file .pgpass by entering the following in terminal: `nano ~/.pgpass`
+  3. Input `wrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password` in the .pgpass using a text editor (e.g., Sublime Text 3).
+  4. Secure this file by entering the following in terminal: `chmod 600 ~/.pgpass`
+
+## Connect to WRDS in R
+
+```{r crsp-compustat-fundq-hide, echo = F}
+# Required Package
+library(RPostgres)
+
+# Connect to WRDS
+wrds <- dbConnect(Postgres(),
+                  host='wrds-pgdata.wharton.upenn.edu',
+                  port=9737,
+                  dbname='wrds',
+                  sslmode='require',
+                  user='ckwon93')
+```
+
+
+```{r crsp-compustat-fundq-real, eval = F, echo = T}
+# Required Package
+library(RPostgres)
+
+# Connect to WRDS
+wrds <- dbConnect(Postgres(),
+                  host='wrds-pgdata.wharton.upenn.edu',
+                  port=9737,
+                  dbname='wrds',
+                  sslmode='require',
+                  user='USERID') # Input USER ID here. 
+```
+
+## Compustat Fundamentals Quarterly
+
+```{r compustat-fundq-data, eval = F}
+
+# Download data 
+compustat_fundQ_DT <- dbSendQuery(wrds, 
+"select CONM, TIC, EXCHG,GVKEY, DATADATE, INVTQ, ATQ, SALEQ, COGSQ  
+                    from COMP.FUNDQ                                  
+                    WHERE DATADATE >= '2018-03-01' AND DATADATE < '2018-04-01'")
+
+# Fetch all rows
+compustat_fundQ_DT <- dbFetch(compustat_fundQ_DT, n=-1)
+
+```
+
+
+## Compustat Fundamentals Annual
+
+```{r compustat-funda-data, eval = F}
+
+# Download data 
+compustat_fundA_DT <- dbSendQuery(wrds, 
+"select CONM, TIC, EXCHG,GVKEY, DATADATE, INVT, AT, SALE, COGS  
+                    from COMP.FUNDA                                  
+                    WHERE DATADATE >= '2018-01-01' AND DATADATE < '2019-04-01'")
+
+# Fetch all rows
+compustat_fundA_DT <- dbFetch(compustat_fundA_DT, n=-1)
+
+```
+
+
+## CRSP 
+
+```{r CRSP, eval = F}
+
+# Download data 
+CRSP_daily_DT <- dbSendQuery(wrds, "SELECT CUSIP,PERMNO,DATE,PRC,SHROUT,VOL
+                   FROM CRSP.DSF
+                   WHERE PERMNO IN (14593) 
+                   AND DATE BETWEEN '2010-01-01' and '2018-04-01'")
+
+# Fetch all rows
+CRSP_daily_DT <- dbFetch(CRSP_daily_DT, n=-1)
+
+```
 
 
 
+
+***
 # Data Preliminaries
 ***
 
@@ -50,39 +137,66 @@ pacman::p_load(data.table, magrittr, stargazer, fixest, lfe, readstata13, rmatio
 
 ```
 
-This way, I dont' have to keep writing out library() over and over again. 
+This way, I dont' have to keep writing out `library(package_name)` over and over again. 
 
 ## Reading Data
 
-We typically encounter three types of data files: (1) .csv, (2) .dat and (3) .xlsx, and (4) .mat Below are the packages that I use for the four types.
+We typically encounter three types of data files: 
+
+  1. .CSV
+  2. .XLSX
+  3. .DAT 
+  4. .MAT 
+
+Below are the packages and codes that I use for the four types. Note that I pipe everything into setDT() to convert the data frames into a data table (except when using data table's fread function which handles this automatically).
 
 ```{r read_languages, eval = F}
-
-
 # CSV
 CSV_DT <- data.table::fread("/Users/ckwon/Dropbox/Academic Research/data.csv")
 
 # DAT
-dat_DT <- readstata13::read.dta13("/Users/ckwon/Dropbox/Academic Research/data.dat")
+dat_DT <- readstata13::read.dta13("/Users/ckwon/Dropbox/Academic Research/data.dat") %>% setDT()
 
 # XLSX
-CSV_DT <- readstat13::read.dta13("/Users/ckwon/Dropbox/Academic Research/data.dat")
+CSV_DT <- openxlsx::read.xlsx("/Users/ckwon/Dropbox/Academic Research/data.dat") %>% setDT() 
 
+# MAT 
+MAT_DT <- read.mat("/Users/ckwon/Dropbox/Academic Research/data.dat") %>% setDT() 
 
 ```
 
-## WRDS Data 
-
-
-
-
 ## Winsorizing
+```{r winsorizing,  eval = F}
+# Required package
+pacman::p_load(DescTools)
+
+# Choose variables to winsorize
+winz_var <- c("at", "grossmargin", "debt_equity", "roe")
+
+# Winsorize (2% and 98%)
+DT[,(winz_var) := lapply(.SD, Winsorize, minval = NULL, maxval = NULL,  probs = c(0.02, 0.98),  na.rm = TRUE), .SDcols = winz_var]
+```
 
 ## Trimming
+
+```{r trimming, eval = F}
+# Separately 
+DT <- DT %>%
+  .[roe > 0.01] %>%    # Only choose samples where return on equity is greater than 0.01
+  .[!(at == 0)] %>%    # Drop obs that have assets equal to 0
+  .[invt < 500] %>%    # Drop obs that have inventories smaller than 500
+  .[!is.na(cogs)]      # Drop obs that have missing cost of goods sold values
+
+# Altogether: I prefer the method above, as it is easier to read. 
+DT <- DT %>%
+  .[roe > 0.01 & !(at ==0) & invt < 500 & !(is.na(cogs))]
+```
+
 
 ***
 # Regressions
 ***
+Now, onto the fun part! There are many packages that run regressions very efficiently in R. My two favorites are the packages `lfe` and `fixest`. I currently favor the former, as the latter is not compatible with `stargazer`. However, `fixest` is often faster and includes a very fast Poisson fixed effects procedure which `lfe` does not have. 
 
 ## Ordinary Least Squares
 

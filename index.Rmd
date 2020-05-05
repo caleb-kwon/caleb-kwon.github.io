@@ -18,7 +18,7 @@ output:
 <div style="margin-bottom:25px;">
 </div>
 
-<img src="images/caleb.png" height = "270" style ="display:block; margin-left: auto; margin-right:auto;">
+<img src="images/caleb.png" height = "300" style ="display:block; margin-left: auto; margin-right:auto;">
 
 ***
 
