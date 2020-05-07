@@ -398,6 +398,15 @@ div.tocify {
 </div>
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165847699-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165847699-1');
+</script>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p>I’m a huge fan of R. To share my enthusiasm, I’ve provided some code for procedures commonly used in empirical analysis in Operations Management and Economics. The code is mostly self-contained, but requires a basic understanding of <code>data.table</code> and piping <code>%&gt;%</code>.</p>
 <p>The code should be fast (due to <code>data.table</code> and other user contributed packages and not me). But the primary focus was on readability, there are probably much faster alternatives to the codes I present below. Please email me if you spot any errors or have any questions or suggestions! I also take requests, so please email me if you think that there are commonly used routines that I’ve missed.</p>
