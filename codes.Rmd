@@ -24,7 +24,7 @@ output:
 
 Here is some code for procedures commonly used in empirical analysis in Operations Management and Economics. The code is mostly self-contained, but requires a basic understanding of `data.table` and piping `%>%`. 
 
-The code should be fast (due to `data.table` and other user contributed packages and not me). But because my primary focus was (and is) to write code that I can easily read months later, there are probably much better alternatives. 
+The code should be sufficiently fast (due to `data.table` and other user contributed packages and not because of me). But because my primary focus was (and is) to write code that I can easily read months later, the code is probably not the fastest or most optimized. 
 
 Please email me if you spot any errors or have any questions or suggestions! I also take requests, so please email me if you think that there are commonly used routines that I've missed. 
 
