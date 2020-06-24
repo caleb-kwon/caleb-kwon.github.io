@@ -42,4 +42,4 @@ You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.
 
 ## New:
 
-- A new version of _Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models_ has been uploaded in the Research Tab. Please also see the accompanying guide on how to easily implement our procedure. 
+- A new version of _Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models_ has been uploaded in the Research Tab. 

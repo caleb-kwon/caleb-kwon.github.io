@@ -23,6 +23,5 @@ output:
 
 2. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0). [With Eric Mbakop]
   - _Revised and Resubmitted_,  **The Annals of Statistics** 
-  - [Link to Practicioner's Guide](https://www.dropbox.com/s/362zmzjb0uybr57/Online_Algorithm.pdf?dl=0)
   
 3. Supply Chain Spillovers in Corporate Social Responsibility Investments (2020) [With Jun Li and Andrew Wu]
