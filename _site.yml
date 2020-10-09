@@ -12,6 +12,8 @@ navbar:
       href: mailto:ckwon@hbs.edu
     - icon: fa-user-alt fa-lg
       href: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260
+    - icon: fa-youtube-play fa-lg
+      href: https://www.youtube.com/channel/UC3wCAOdCHnibrhHBlks8XFw
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/caleb-kwon-35b46110b/
 output:
