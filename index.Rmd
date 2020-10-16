@@ -69,7 +69,8 @@ output:
 I am a second year PhD student in Operations Management at Harvard University. My research interests are in supply chains and applied econometrics. I'm also an R enthusiast! 
 
 ## Resume
-You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1). 
+You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1) and my Google Scholar [here](https://scholar.google.com/citations?user=mBw3GmIAAAAJ).
+
 
 ## R Videos
 
