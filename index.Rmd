@@ -64,24 +64,7 @@ output:
 ***
 
 # Caleb Kwon 
-
-
 I am a second year PhD student in Operations Management at Harvard University. My research interests are in supply chains and applied econometrics. I'm also an R enthusiast! 
 
 ## Resume
 You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1) and my Google Scholar [here](https://scholar.google.com/citations?user=mBw3GmIAAAAJ).
-
-
-## R Videos
-
-My latest video goes over how to estimate linear models in R using the `fixest` package. This is my preferred package for estimating linear (and non-linear) models in R because:
-
-(1) Its super fast -- even when you have a ton of fixed effects. Benchmarks show that it is as fast as `felm` and `reghdfe` in Stata.
-(2) It estimates various standard errors (robust, clustered) internally (no need for `clusterSEs` and `sandwich`).
-(3) It exports your results into a beautiful and highly customizable LaTeX tables. 
-
-It does all of the above with only two functions `fixest::feols` and `fixest::etable`.  
-
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/6r8FzYmfsjk">
-</iframe>
