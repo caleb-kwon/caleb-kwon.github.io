@@ -13,7 +13,7 @@ stringr
 janitor
 purrr
 MatchIt
+RPostgres
 readstata13
 rmatio
 openxlsx
-RPostgres
