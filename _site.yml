@@ -16,6 +16,8 @@ navbar:
       href: https://www.youtube.com/channel/UC3wCAOdCHnibrhHBlks8XFw
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/caleb-kwon-35b46110b/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/kwon_caleb
 output:
   html_document:
     theme: paper

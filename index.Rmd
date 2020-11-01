@@ -1,8 +1,8 @@
 ---
-title: "&nbsp;"
 output: 
     html_document:
          css: styles.css
+         anchor_sections: false
 
 ---
 
@@ -65,8 +65,12 @@ output:
 
 # Caleb Kwon 
 
+I am a second year PhD student in Operations Management at Harvard University. My research interests are in Supply chains, and Econometrics, and my advisor is Professor Ananth Raman. 
 
-I am a second year PhD student in Operations Management at Harvard University. My research interests are in supply chains and applied econometrics. 
+You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1), and my Google Scholar [here](https://scholar.google.com/citations?user=mBw3GmIAAAAJ).
 
-## Resume
-You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1). 
+## Recent Updates
+
+  - Teaching evaluations for HBS Course: Technology and Operations Management (requred for all MBAs)
+  - Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020) accepted at the **Annals of Statistics**. 
+

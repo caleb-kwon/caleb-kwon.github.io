@@ -3,6 +3,7 @@ title: "&nbsp;"
 output: 
     html_document:
          css: styles.css
+         anchor_sections: false
 ---
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -18,10 +19,14 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-1. [Supply Chain Disruptions and Causal Outcomes: Evidence from the Bankruptcy of Hanjin Shipping (2018) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272).
-  - _Reject and Resubmit_ 
+1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0). [With Eric Mbakop]
 
-2. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0). [With Eric Mbakop]
-  - _Revised and Resubmitted_,  **The Annals of Statistics** 
+      **Annals of Statistics** (Accepted)
+
+2. [Supply Chain Disruptions and Causal Outcomes: Evidence from the Bankruptcy of Hanjin Shipping (2018) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272).
+    
+      *Reject and Resubmit* 
   
 3. Supply Chain Spillovers in Corporate Social Responsibility Investments (2020) [With Jun Li and Andrew Wu]
+
+      *Draft coming soon*

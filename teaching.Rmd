@@ -1,8 +1,9 @@
 ---
-title: "&nbsp;"
+title: ""
 output: 
     html_document:
          css: styles.css
+         anchor_sections: false
 ---
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,7 +21,10 @@ output:
 
 ### Harvard University -- Harvard Business School
 
-  - Technology and Operations Management Required Curriculum  [Fall '19 and Fall '20]
+  - Technology and Operations Management -- Required Curriculum  Fall '19
+  - Technology and Operations Management -- Required Curriculum  Fall '20 
+      - Please click here for teaching evaluations. 
+  
 
 
 ### Northwestern University -- Kellogg School of Management 
