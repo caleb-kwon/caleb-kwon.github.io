@@ -71,6 +71,6 @@ You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.
 
 ## Recent Updates
 
-  - Teaching evaluations for HBS Course: Technology and Operations Management (requred for all MBAs)
-  - Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020) accepted at the **Annals of Statistics**. 
+  - [Teaching evaluations for HBS Course: Technology and Operations Management (requred for all MBAs at HBS).](https://calebkwon.com/rctom_reviews)
+  - [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) accepted at the **Annals of Statistics**. 
 

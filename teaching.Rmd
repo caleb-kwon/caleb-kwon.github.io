@@ -23,7 +23,7 @@ output:
 
   - Technology and Operations Management -- Required Curriculum  Fall '19
   - Technology and Operations Management -- Required Curriculum  Fall '20 
-      - Please click here for teaching evaluations. 
+      - [Please click here for teaching evaluations](https://calebkwon.com/rctom_reviews) 
   
 
 
