@@ -3,6 +3,7 @@ title: "&nbsp;"
 output: 
   html_document:
       css: styles.css
+      anchor_sections: false
 
 ---
 <style type="text/css">
@@ -45,15 +46,18 @@ body{
 
 
 :::::: {.columns}
-::: {.column width="48%" data-latex="{0.48\textwidth}"}
+::: {.column width="40%" data-latex="{0.48\textwidth}"}
 # Basics
 
   - [Installing and Loading Packages](https://www.youtube.com/watch?v=AhTA-jwPJjo) [3:17]
-    + Perfect video if you hate writing out `library()` a million times and worrying if the package you want to load is already installed. 
+    + Hate writing out `library()` a million times?
   - [Importing .CSV, .XLSX, .DTA, and .MAT datasets](https://www.youtube.com/watch?v=c91yQG0L1q0) [5:35]
-    + Need to import simulation results from Matlab? Or have a coauthor who only works with Stata? 
+    + Have a coauthor who *only* works in Stata? 
+  - [Customizing R Studio Layout]
+  - [Customize Startup Using .RProfile]
+  - [Snippets and Hotkeys]
 :::
-::: {.column width="1%" data-latex="{0.04\textwidth}"}
+::: {.column width="0%" data-latex="{0.01\textwidth}"}
 \ 
 <!-- an empty Div (with a white space), serving as
 a column separator -->
@@ -74,7 +78,7 @@ a column separator -->
 <!-- Second set of columns begins here  -->
 
 :::::: {.columns}
-::: {.column width="48%" data-latex="{0.48\textwidth}"}
+::: {.column width="40%" data-latex="{0.48\textwidth}"}
 
   
 # Data Exploration
@@ -92,24 +96,22 @@ a column separator -->
 # Regression Analysis 
 
   - [Robust and Clustered Standard Errors](https://www.youtube.com/watch?v=wTMKTpXKgOE) [4:42]
-    + Goes over HC0 ~ HC3, One-way and Two-way Clustered Standard Errors. 
 :::
 ::::::
 
 <!-- Second set of columns begins here  -->
 
 :::::: {.columns}
-::: {.column width="48%" data-latex="{0.48\textwidth}"}
+::: {.column width="40%" data-latex="{0.48\textwidth}"}
 
   
 # Caleb's Recommended Packages
 
   - [fixest](https://www.youtube.com/watch?v=6r8FzYmfsjk) [7:57]
-    + A must have for empirical researchers (Estimates linear/non-linear models, a bunch of standard errors, and makes exporting results into $LaTeX$ an absolute breeze).
+    + The absolute best package for empiricists. 
   - [sandwich]
-    + Computes all sorts of standard errors (HC0 ~ HC5)
   - [irlba]
-    + Computes singular values of large matrices super-super fast. 
+    + Computes svds super fast.  
   
 :::
 ::: {.column width="1%" data-latex="{0.04\textwidth}"}
@@ -117,7 +119,7 @@ a column separator -->
 <!-- an empty Div (with a white space), serving as
 a column separator -->
 :::
-:::::: {.column width="48%" data-latex="{0.48\textwidth}"}
+:::::: {.column width="40%" data-latex="{0.48\textwidth}"}
 
 # Machine Learning 
 
@@ -128,7 +130,7 @@ a column separator -->
 <!-- Third set of columns begins here  -->
 
 :::::: {.columns}
-::: {.column width="48%" data-latex="{0.48\textwidth}"}
+::: {.column width="40%" data-latex="{0.48\textwidth}"}
 
   
 # Data Visualization

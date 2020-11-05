@@ -22,8 +22,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -372,19 +370,22 @@ body{
 }
 </style>
 <div class="columns">
-<div class="column" style="width:48%;">
+<div class="column" style="width:40%;">
 <h1 id="basics">Basics</h1>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=AhTA-jwPJjo">Installing and Loading Packages</a> [3:17]
 <ul>
-<li>Perfect video if you hate writing out <code>library()</code> a million times and worrying if the package you want to load is already installed.</li>
+<li>Hate writing out <code>library()</code> a million times?</li>
 </ul></li>
 <li><a href="https://www.youtube.com/watch?v=c91yQG0L1q0">Importing .CSV, .XLSX, .DTA, and .MAT datasets</a> [5:35]
 <ul>
-<li>Need to import simulation results from Matlab? Or have a coauthor who only works with Stata?</li>
+<li>Have a coauthor who <em>only</em> works in Stata?</li>
 </ul></li>
+<li>[Customizing R Studio Layout]</li>
+<li>[Customize Startup Using .RProfile]</li>
+<li>[Snippets and Hotkeys]</li>
 </ul>
-</div><div class="column" style="width:1%;">
+</div><div class="column" style="width:0%;">
 <p>  <!-- an empty Div (with a white space), serving as
 a column separator --></p>
 </div><div class="column" style="width:48%;">
@@ -401,7 +402,7 @@ a column separator --></p>
 </div>
 <!-- Second set of columns begins here  -->
 <div class="columns">
-<div class="column" style="width:48%;">
+<div class="column" style="width:40%;">
 <h1 id="data-exploration">Data Exploration</h1>
 <ul>
 <li>Correlation Plots</li>
@@ -412,41 +413,35 @@ a column separator --></p>
 </div><div class="column" style="width:48%;">
 <h1 id="regression-analysis">Regression Analysis</h1>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=wTMKTpXKgOE">Robust and Clustered Standard Errors</a> [4:42]
-<ul>
-<li>Goes over HC0 ~ HC3, One-way and Two-way Clustered Standard Errors.</li>
-</ul></li>
+<li><a href="https://www.youtube.com/watch?v=wTMKTpXKgOE">Robust and Clustered Standard Errors</a> [4:42]</li>
 </ul>
 </div>
 </div>
 <!-- Second set of columns begins here  -->
 <div class="columns">
-<div class="column" style="width:48%;">
+<div class="column" style="width:40%;">
 <h1 id="calebs-recommended-packages">Caleb’s Recommended Packages</h1>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=6r8FzYmfsjk">fixest</a> [7:57]
 <ul>
-<li>A must have for empirical researchers (Estimates linear/non-linear models, a bunch of standard errors, and makes exporting results into <span class="math inline">\(LaTeX\)</span> an absolute breeze).</li>
+<li>The absolute best package for empiricists.</li>
 </ul></li>
-<li>[sandwich]
-<ul>
-<li>Computes all sorts of standard errors (HC0 ~ HC5)</li>
-</ul></li>
+<li>[sandwich]</li>
 <li>[irlba]
 <ul>
-<li>Computes singular values of large matrices super-super fast.</li>
+<li>Computes svds super fast.</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:1%;">
 <p>  <!-- an empty Div (with a white space), serving as
 a column separator --></p>
-</div><div class="column" style="width:48%;">
+</div><div class="column" style="width:40%;">
 <h1 id="machine-learning">Machine Learning</h1>
 </div>
 </div>
 <!-- Third set of columns begins here  -->
 <div class="columns">
-<div class="column" style="width:48%;">
+<div class="column" style="width:40%;">
 <h1 id="data-visualization">Data Visualization</h1>
 <ul>
 <li>Histogram</li>
