@@ -156,3 +156,29 @@ a column separator -->
 :::
 ::::::
 
+<!-- Fourth set of columns begins here  -->
+
+:::::: {.columns}
+::: {.column width="40%" data-latex="{0.48\textwidth}"}
+
+  
+# Finance
+
+  - [Downloading Stock Price Data](https://www.youtube.com/watch?v=CD-Bk1YAYXk) [6:58]
+  - Scraping Earnings Calendar
+  - Scraping Dividend Calendar
+  
+:::
+::: {.column width="1%" data-latex="{0.04\textwidth}"}
+\ 
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+:::
+:::::: {.column width="48%" data-latex="{0.48\textwidth}"}
+
+# Data Cleaning/Wrangling II
+
+
+:::
+::::::
+
