@@ -65,9 +65,13 @@ output:
 
 # Caleb Kwon 
 
-I am a second year PhD student in Operations Management at Harvard University. My research interests are in Supply chains, and Econometrics, and my advisor is Professor Ananth Raman. 
+I am a second year PhD student in Operations Management at Harvard University. My research interests are in Supply Chains, Retail Operations, and Econometrics. I am advised by Professor Ananth Raman. 
 
-You can find my CV/Resume [here](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1), and my Google Scholar [here](https://scholar.google.com/citations?user=mBw3GmIAAAAJ).
+## Links
+
+  - [HBS Profile](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260) 
+  - [CV/Resume](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1)
+  - [Google Scholar](https://scholar.google.com/citations?user=mBw3GmIAAAAJ)
 
 ## Recent Updates
 
