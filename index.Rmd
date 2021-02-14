@@ -67,13 +67,13 @@ output:
 
 I am a second year PhD student in Operations Management at Harvard University. My research interests are in Supply Chains, Retail Operations, and Econometrics. I am advised by Professor Ananth Raman. 
 
-## Links
+## Some Links
 
   - [HBS Profile](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260) 
-  - [CV/Resume](https://www.dropbox.com/s/efdu25rwgm3us4f/res4.pdf?raw=1)
+  - [CV/Resume](https://calebkwon.com/calebkwon_2021.pdf)
   - [Google Scholar](https://scholar.google.com/citations?user=mBw3GmIAAAAJ)
 
-## Recent Updates
+## Some Recent Updates
 
   - [Teaching evaluations for HBS Course: Technology and Operations Management (requred for all MBAs at HBS).](https://calebkwon.com/rctom_reviews)
   - [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) accepted at the **Annals of Statistics**. 
