@@ -21,7 +21,7 @@ output:
 
 # Research
 
-1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0). *With* [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/)
+1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) with [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/).
 
     *Forthcoming* at the  **Annals of Statistics** 
     
@@ -29,14 +29,16 @@ output:
     
       *Reject and Resubmit* 
   
-3. Supply Chain Spillovers in Corporate Social Responsibility Investments (2020). *With* [Jun Li](https://sites.google.com/a/umich.edu/junli/) and [Andrew Di Wu](https://sites.google.com/site/diandrewwu/)
+3. Disclosure-Driven Social Engagement in Supply Chains (2021) with [Jun Li](https://sites.google.com/a/umich.edu/junli/) and [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
 
       *Draft coming soon*
       
-4. On the Dynamics of Retail Labor Productivity (2020). *With* [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534)
+4. On the Dynamics of Retail Labor Productivity (2021) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+
 
 # Cases and Teaching Material
 
-1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552). *With* [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022)
+1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
 
    **Harvard Business School Tutorial 621-708**
