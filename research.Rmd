@@ -19,10 +19,12 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+# Research
+
 1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0). [With Eric Mbakop]
 
-      **Annals of Statistics** (Accepted)
-
+    *Forthcoming* at the  **Annals of Statistics** 
+    
 2. [Supply Chain Disruptions and Causal Outcomes: Evidence from the Bankruptcy of Hanjin Shipping (2018) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272).
     
       *Reject and Resubmit* 
@@ -32,3 +34,9 @@ output:
       *Draft coming soon*
       
 4. On the Dynamics of Retail Labor Productivity (2020) [With Ananth Raman] 
+
+# Cases and Teaching Material
+
+1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552). [With Chiara Farronato]
+
+   **Harvard Business School Tutorial 621-708**
