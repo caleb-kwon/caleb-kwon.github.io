@@ -29,7 +29,7 @@ output:
 <div style="margin-bottom:25px;">
 </div>
 
-<img src="images/caleb_new.png" height = "350" style ="display:block; margin-left: auto; margin-right:auto;">
+<img src="images/caleb_orig.jpg" height = "280" style ="display:block; margin-left: auto; margin-right:auto;">
 
 <style type="text/css">
     /* default styles here for older browsers. 
