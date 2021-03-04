@@ -11,30 +11,22 @@
 
 
 
-<title> </title>
+<title></title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -48,6 +40,11 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -60,7 +57,32 @@ if (window.hljs) {
 
 
 
-
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -71,6 +93,10 @@ if (window.hljs) {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -87,13 +113,40 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
-pre code {
-  padding: 0;
-}
 </style>
 
 
 <style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -121,7 +174,7 @@ pre code {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
+  border-left-color: #ffffff;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -133,7 +186,7 @@ pre code {
 }
 </style>
 
-<script type="text/javascript">
+<script>
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -144,23 +197,10 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.tab('show');
+  menuAnchor.parent().addClass('active');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
 });
 </script>
 
@@ -172,6 +212,7 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
+  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -303,13 +344,13 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -336,25 +377,25 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:ckwon@hbs.edu">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260">
-    <span class="fas fa-user-alt fa-lg"></span>
+    <span class="fa fa-user-alt fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/caleb-kwon-35b46110b/">
-    <span class="fas fa-linkedin fa-lg"></span>
+    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/kwon_caleb">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -363,11 +404,10 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="header">
+<div class="fluid-row" id="header">
 
 
 
-<h1 class="title toc-ignore"> </h1>
 
 </div>
 
@@ -386,8 +426,8 @@ div.tocify {
 <p>The code should be sufficiently fast (due to <code>data.table</code> and other user contributed packages and not because of me). But because my primary focus was (and is) to write code that I can easily read months later, the code is probably not the fastest or most optimized.</p>
 <p>Please email me if you spot any errors or have any questions or suggestions! I also take requests, so please email me if you think that there are commonly used routines that I’ve missed.</p>
 <hr />
-<div id="wrds" class="section level1" number="1">
-<h1 number="1"><span class="header-section-number">1</span> WRDS</h1>
+<div id="wrds" class="section level1">
+<h1><span class="header-section-number">1</span> WRDS</h1>
 <hr />
 <p>Because WRDS contains datasets that are very popular among OM scholars and economists, I begin with code that allows you to fetch data from WRDS in R directly, and not require you to log into WRDS each time and painstakingly choose the dataset and variables over and over again.</p>
 <p>You can find this tutorial on WRDS, but here is a summary and example codes.</p>
@@ -398,8 +438,8 @@ div.tocify {
 <li>Input <code>wrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password</code> in the .pgpass using a text editor (e.g., Sublime Text 3).</li>
 <li>Secure this file by entering the following in terminal: <code>chmod 600 ~/.pgpass</code></li>
 </ol>
-<div id="connect-to-wrds-in-r" class="section level2" number="1.1">
-<h2 number="1.1"><span class="header-section-number">1.1</span> Connect to WRDS in R</h2>
+<div id="connect-to-wrds-in-r" class="section level2">
+<h2><span class="header-section-number">1.1</span> Connect to WRDS in R</h2>
 <pre class="r"><code># Required Package
 library(RPostgres)
 
@@ -411,8 +451,8 @@ wrds &lt;- dbConnect(Postgres(),
                   sslmode=&#39;require&#39;,
                   user=&#39;USERID&#39;) # Input USER ID here. </code></pre>
 </div>
-<div id="compustat-fundamentals-quarterly" class="section level2" number="1.2">
-<h2 number="1.2"><span class="header-section-number">1.2</span> Compustat Fundamentals Quarterly</h2>
+<div id="compustat-fundamentals-quarterly" class="section level2">
+<h2><span class="header-section-number">1.2</span> Compustat Fundamentals Quarterly</h2>
 <pre class="r"><code># Download data 
 compustat_fundQ_DT &lt;- dbSendQuery(wrds, 
 &quot;select CONM, TIC, EXCHG,GVKEY, DATADATE, INVTQ, ATQ, SALEQ, COGSQ  
@@ -422,8 +462,8 @@ compustat_fundQ_DT &lt;- dbSendQuery(wrds,
 # Fetch all rows
 compustat_fundQ_DT &lt;- dbFetch(compustat_fundQ_DT, n=-1)</code></pre>
 </div>
-<div id="compustat-fundamentals-annual" class="section level2" number="1.3">
-<h2 number="1.3"><span class="header-section-number">1.3</span> Compustat Fundamentals Annual</h2>
+<div id="compustat-fundamentals-annual" class="section level2">
+<h2><span class="header-section-number">1.3</span> Compustat Fundamentals Annual</h2>
 <pre class="r"><code># Download data 
 compustat_fundA_DT &lt;- dbSendQuery(wrds, 
 &quot;select CONM, TIC, EXCHG,GVKEY, DATADATE, INVT, AT, SALE, COGS  
@@ -433,8 +473,8 @@ compustat_fundA_DT &lt;- dbSendQuery(wrds,
 # Fetch all rows
 compustat_fundA_DT &lt;- dbFetch(compustat_fundA_DT, n=-1)</code></pre>
 </div>
-<div id="crsp" class="section level2" number="1.4">
-<h2 number="1.4"><span class="header-section-number">1.4</span> CRSP</h2>
+<div id="crsp" class="section level2">
+<h2><span class="header-section-number">1.4</span> CRSP</h2>
 <pre class="r"><code># Download data 
 CRSP_daily_DT &lt;- dbSendQuery(wrds, &quot;SELECT CUSIP,PERMNO,DATE,PRC,SHROUT,VOL
                    FROM CRSP.DSF
@@ -446,11 +486,11 @@ CRSP_daily_DT &lt;- dbFetch(CRSP_daily_DT, n=-1)</code></pre>
 <hr />
 </div>
 </div>
-<div id="data-preliminaries" class="section level1" number="2">
-<h1 number="2"><span class="header-section-number">2</span> Data Preliminaries</h1>
+<div id="data-preliminaries" class="section level1">
+<h1><span class="header-section-number">2</span> Data Preliminaries</h1>
 <hr />
-<div id="setup" class="section level2" number="2.1">
-<h2 number="2.1"><span class="header-section-number">2.1</span> Setup</h2>
+<div id="setup" class="section level2">
+<h2><span class="header-section-number">2.1</span> Setup</h2>
 <p>Instead of loading each package manually, I use the following approach:</p>
 <pre class="r"><code># First load the package &#39;pacman&#39;
 library(pacman)
@@ -459,8 +499,8 @@ library(pacman)
 pacman::p_load(data.table, magrittr, stargazer, fixest, lfe, readstata13, rmatio, openxlsx)</code></pre>
 <p>This way, I dont’ have to keep writing out <code>library(package_name)</code> over and over again.</p>
 </div>
-<div id="reading-data" class="section level2" number="2.2">
-<h2 number="2.2"><span class="header-section-number">2.2</span> Reading Data</h2>
+<div id="reading-data" class="section level2">
+<h2><span class="header-section-number">2.2</span> Reading Data</h2>
 <p>We typically encounter three types of data files:</p>
 <ol style="list-style-type: decimal">
 <li>.CSV</li>
@@ -481,8 +521,8 @@ CSV_DT &lt;- openxlsx::read.xlsx(&quot;/Users/ckwon/Dropbox/Academic Research/da
 # MAT 
 MAT_DT &lt;- read.mat(&quot;/Users/ckwon/Dropbox/Academic Research/data.dat&quot;) %&gt;% setDT() </code></pre>
 </div>
-<div id="winsorizing" class="section level2" number="2.3">
-<h2 number="2.3"><span class="header-section-number">2.3</span> Winsorizing</h2>
+<div id="winsorizing" class="section level2">
+<h2><span class="header-section-number">2.3</span> Winsorizing</h2>
 <pre class="r"><code># Required package
 pacman::p_load(DescTools)
 
@@ -492,8 +532,8 @@ winz_var &lt;- c(&quot;at&quot;, &quot;grossmargin&quot;, &quot;debt_equity&quot
 # Winsorize (2% and 98%)
 DT[,(winz_var) := lapply(.SD, Winsorize, minval = NULL, maxval = NULL,  probs = c(0.02, 0.98),  na.rm = TRUE), .SDcols = winz_var]</code></pre>
 </div>
-<div id="trimming" class="section level2" number="2.4">
-<h2 number="2.4"><span class="header-section-number">2.4</span> Trimming</h2>
+<div id="trimming" class="section level2">
+<h2><span class="header-section-number">2.4</span> Trimming</h2>
 <p>People use ‘trimming’ to mean two different things: (1) Removing observations that fall above or below a certain quantile, or (2) removing observations that don’t fit a certain criterion, e.g., return on equity is smaller than 0.01. I present code for both meanings below.</p>
 <pre class="r"><code># Definition 1: Delete obs. where return on equity falls outside the (2%, 98%) percentiles
 quantile_roe_98 &lt;- quantile(DT$roe, probs = 0.98)
@@ -519,12 +559,12 @@ DT &lt;- DT %&gt;%
 <hr />
 </div>
 </div>
-<div id="regressions" class="section level1" number="3">
-<h1 number="3"><span class="header-section-number">3</span> Regressions</h1>
+<div id="regressions" class="section level1">
+<h1><span class="header-section-number">3</span> Regressions</h1>
 <hr />
 <p>Now, onto the fun part!There are many packages that run regressions very efficiently in R. My two favorites are the packages <code>lfe</code> and <code>fixest</code>. I currently favor the former, as the latter is not compatible with <code>stargazer</code>. However, <code>fixest</code> is often faster and includes a very fast Poisson fixed effects procedure which <code>lfe</code> does not have.</p>
-<div id="ordinary-least-squares" class="section level2" number="3.1">
-<h2 number="3.1"><span class="header-section-number">3.1</span> Ordinary Least Squares</h2>
+<div id="ordinary-least-squares" class="section level2">
+<h2><span class="header-section-number">3.1</span> Ordinary Least Squares</h2>
 <pre class="r"><code># Initialize dataset (should already be in R)
 DT &lt;- iris %&gt;% setDT()
 
@@ -532,27 +572,27 @@ DT &lt;- iris %&gt;% setDT()
 reg_Sepal.Length_Sepal.Width &lt;- felm(Sepal.Length ~ Sepal.Width, data = DT)</code></pre>
 <p>Consistent naming conventions are important when you run many regressions and need to later export them into <span class="math inline">\(LaTeX\)</span>. I follow the convention of starting with reg and then appending in the name of the dependent variable and the most independent variable of interest, e.g. <code>reg_DEPVAR_INDEPVAR</code>.</p>
 </div>
-<div id="poisson" class="section level2" number="3.2">
-<h2 number="3.2"><span class="header-section-number">3.2</span> Poisson</h2>
+<div id="poisson" class="section level2">
+<h2><span class="header-section-number">3.2</span> Poisson</h2>
 </div>
-<div id="zero-inflated-poisson" class="section level2" number="3.3">
-<h2 number="3.3"><span class="header-section-number">3.3</span> Zero Inflated Poisson</h2>
+<div id="zero-inflated-poisson" class="section level2">
+<h2><span class="header-section-number">3.3</span> Zero Inflated Poisson</h2>
 </div>
 </div>
-<div id="fixed-effects" class="section level1" number="4">
-<h1 number="4"><span class="header-section-number">4</span> Fixed Effects</h1>
+<div id="fixed-effects" class="section level1">
+<h1><span class="header-section-number">4</span> Fixed Effects</h1>
 </div>
-<div id="difference-in-differences" class="section level1" number="5">
-<h1 number="5"><span class="header-section-number">5</span> Difference in Differences</h1>
+<div id="difference-in-differences" class="section level1">
+<h1><span class="header-section-number">5</span> Difference in Differences</h1>
 </div>
-<div id="regression-discontinuity" class="section level1" number="6">
-<h1 number="6"><span class="header-section-number">6</span> Regression Discontinuity</h1>
+<div id="regression-discontinuity" class="section level1">
+<h1><span class="header-section-number">6</span> Regression Discontinuity</h1>
 </div>
-<div id="instrumental-variables" class="section level1" number="7">
-<h1 number="7"><span class="header-section-number">7</span> Instrumental Variables</h1>
+<div id="instrumental-variables" class="section level1">
+<h1><span class="header-section-number">7</span> Instrumental Variables</h1>
 </div>
-<div id="presenting-results" class="section level1" number="8">
-<h1 number="8"><span class="header-section-number">8</span> Presenting Results</h1>
+<div id="presenting-results" class="section level1">
+<h1><span class="header-section-number">8</span> Presenting Results</h1>
 <hr />
 </div>
 
@@ -585,7 +625,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).parent().toggleClass('nav-tabs-open')
   });
 });
 </script>
