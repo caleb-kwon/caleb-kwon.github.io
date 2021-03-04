@@ -41,4 +41,4 @@ output:
 
 1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
 
-   **Harvard Business School Tutorial 621-708 February, 2021**
+   **Harvard Business School Tutorial 621-708, February 2021**

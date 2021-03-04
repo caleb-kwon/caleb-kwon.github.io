@@ -74,7 +74,7 @@ I am a second year PhD student in Operations Management at Harvard University. M
   - [Google Scholar](https://scholar.google.com/citations?user=mBw3GmIAAAAJ)
 
 ## Some Recent Updates
-
+  
   - [Teaching evaluations for HBS Course: Technology and Operations Management (requred for all MBAs at HBS).](https://calebkwon.com/rctom_reviews)
   - [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) *forthcoming* at the **Annals of Statistics**. 
 
