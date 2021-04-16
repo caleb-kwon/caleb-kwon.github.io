@@ -19,6 +19,7 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+
 ### Harvard University -- Harvard Business School
 
   - Technology and Operations Management -- Required Curriculum  Fall '19
@@ -26,6 +27,10 @@ output:
       - [Please click here for teaching evaluations](https://calebkwon.com/rctom_reviews) 
   
 
+``` {r fig.align = "center", fig.cap = "Klarman Hall, Harvard Business School", echo=FALSE,  out.width = "40%"}
+knitr::include_graphics("/Users/ckwon/Dropbox/Website/caleb-kwon.github.io/images/klarman.jpg")
+
+```
 
 ### Northwestern University -- Kellogg School of Management 
  
