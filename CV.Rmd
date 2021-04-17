@@ -39,4 +39,11 @@ output:
   * Dean's Medial (Faculty of Arts & Social Sciences): Rank 1 of approximately 2,400
   * Jack L. Knetsch Award for Best Thesis in Economics
   * Cliff Lloyd Memorial Award for Highest GPA in Economics
+  
+# Research Experience
+
+- [Professor Joel Horowitz](https://sites.northwestern.edu/jlh951/) (Econometric Theory)
+  * Research assistant for [Bounding the Difference between true and nominal rejection probabilities in tests of hypotheses about instrumental variables models](https://www.sciencedirect.com/science/article/pii/S0304407620303353)
+- [Professor Dean Karlan](http://deankarlan.com/) (Applied Microeconomics)
+- [Professor Ravi Jagannathan](https://www.kellogg.northwestern.edu/faculty/jagannathan/htm/) (Financial Econometrics)
 
