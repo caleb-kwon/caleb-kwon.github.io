@@ -1,0 +1,42 @@
+---
+title: ""
+output: 
+    html_document:
+         css: styles.css
+         anchor_sections: false
+---
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165847699-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165847699-1');
+</script>
+
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+# Curriculum Vitae
+
+[PDF Version](https://calebkwon.com/calebkwon_2021.pdf)
+
+# Personal Information
+
+- Birthplace: Seoul, South Korea
+- Hometown: Coquitlam, British Columbia 
+- Citizenship: Canadian
+- Languages: English (fluent), Korean (advanced)
+
+# Education
+
+- Ph.D. in Operations Management, Harvard University, 2019 -- 2014 (Expected)
+- M.A. in Economics, Northwestern University, 2017 
+- B.A in Economics, Simon Fraser University, 2015
+  * Honours First Class w/ Distinction
+  * Dean's Medial (Faculty of Arts & Social Sciences): Rank 1 of approximately 2,400
+  * Jack L. Knetsch Award for Best Thesis in Economics
+  * Cliff Lloyd Memorial Award for Highest GPA in Economics
+
