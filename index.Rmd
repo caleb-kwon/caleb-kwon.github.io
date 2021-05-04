@@ -75,6 +75,7 @@ I am a second year PhD student in the [Technology and Operations Management Unit
 
 ## Some Recent Updates
   
+  - My paper, "Disclosure-Driven Social Engagement in Supply Chains" (2021) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/) won 1st place in POMS' College of Sustainable Operations: Best Student Paper Competition. 
   - [Teaching evaluations for HBS Course: Technology and Operations Management (requred for all MBAs at HBS).](https://calebkwon.com/rctom_reviews)
   - [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) *forthcoming* at the **Annals of Statistics**. 
 
