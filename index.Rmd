@@ -65,7 +65,9 @@ output:
 
 # Caleb Kwon 
 
-I'm a PhD student in the [Technology and Operations Management Unit](https://www.hbs.edu/faculty/units/tom/Pages/default.aspx) within the Business School at Harvard University. My research interests are in Supply Chains, Retail Operations, and Econometrics. I am advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).  
+I'm a PhD student in the [Technology and Operations Management Unit](https://www.hbs.edu/faculty/units/tom/Pages/default.aspx) within the Business School at Harvard University. My research interests are in Supply Chains, Retail Operations, and Econometrics. I am grateful to be advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).  
+
+Prior to Harvard, I obtained a B.A. in Economics from Simon Fraser University and M.A. in Economics from Northwestern University. I was also a research assistant at the Finance Department at the Kellogg School of Management. 
 
 ## Some Links
 
