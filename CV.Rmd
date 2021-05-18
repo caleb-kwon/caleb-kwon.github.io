@@ -36,11 +36,11 @@ output:
 - M.A. in Economics, Northwestern University, 2017 
 - B.A in Economics, Simon Fraser University, 2015
   * Honours First Class w/ Distinction
-  * Dean's Medial (Faculty of Arts & Social Sciences): Rank 1 of approximately 2,400
+  * Dean's Medal (Faculty of Arts & Social Sciences): Rank 1 of approximately 2,400
   * Jack L. Knetsch Award for Best Thesis in Economics
   * Cliff Lloyd Memorial Award for Highest GPA in Economics
   
-# Research Experience
+# Research Assistantships 
 
 - [Professor Joel Horowitz](https://sites.northwestern.edu/jlh951/) (Econometric Theory)
   * Research assistant for [Bounding the Difference between true and nominal rejection probabilities in tests of hypotheses about instrumental variables models](https://www.sciencedirect.com/science/article/pii/S0304407620303353)
