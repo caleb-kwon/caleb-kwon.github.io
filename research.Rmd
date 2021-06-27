@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;"
+title: ""
 output: 
     html_document:
          css: styles.css
@@ -36,9 +36,7 @@ output:
       
 4. The Retail Labor Productivity Paradox (2021) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-
-
-# Cases and Teaching Material
+# Cases and Teaching Material:
 
 1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
 
