@@ -16,22 +16,23 @@ output:
   gtag('config', 'UA-165847699-1');
 </script>
 
-
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-# Research
+# Published:
 
-1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2020)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) with [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/).
+1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2021)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) with [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/).
 
     *Forthcoming* at the  **Annals of Statistics** 
     
-2. [Supply Chain Disruptions: Evidence from the Bankruptcy of Hanjin Shipping (2021) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272). [**NEW**]
+# In Progress:
+    
+2. [Supply Chain Disruptions: Evidence from the Bankruptcy of Hanjin Shipping (2021) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272) [**NEW**]
     
       *Reject and Resubmit* 
   
 3. Disclosure-Driven Social Engagement in Supply Chains (2021) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
     
-      **[1st place in POMS College of Sustainable Operations: Best Student Paper Competition](https://poms.org/colleges/csustops/)**
+      **[Winner: POMS College of Sustainable Operations, Best Student Paper Competition](https://poms.org/colleges/csustops/)**
       
 4. The Retail Labor Productivity Paradox (2021) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 

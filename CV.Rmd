@@ -16,12 +16,11 @@ output:
   gtag('config', 'UA-165847699-1');
 </script>
 
-
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 # Curriculum Vitae
 
-[PDF Version](https://calebkwon.com/calebkwon_2021.pdf)
+[PDF Version](https://www.dropbox.com/s/34rby97o4o7gqw3/res4.pdf?raw=1)
 
 # Personal Information
 
@@ -33,12 +32,18 @@ output:
 # Education
 
 - Ph.D. in Operations Management, Harvard University, 2019 -- 2024 (Expected)
+  * Committe Chair: Professor Ananth Raman
 - M.A. in Economics, Northwestern University, 2017 
 - B.A in Economics, Simon Fraser University, 2015
   * Honours First Class w/ Distinction
-  * Dean's Medal (Faculty of Arts & Social Sciences): Rank 1 of approximately 2,400
-  * Jack L. Knetsch Award for Best Thesis in Economics
-  * Cliff Lloyd Memorial Award for Highest GPA in Economics
+  * Dean's Convocation Medalist
+  
+# Awards and Honors
+
+- Winner, POMS College of Sustainable Operations: Best Student Paper (2021)
+- Dean's Medal (Faculty of Arts & Social Sciences): Rank 1 of approximately 2,400 (2015)
+- Jack L. Knetsch Award for Best Thesis in Economics (2015)
+- Cliff Lloyd Memorial Award for Highest GPA in Economics (2015)
   
 # Research Assistantships 
 
