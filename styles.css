@@ -10,25 +10,22 @@ h1 {
   font-style: bold;
 }
 h1.title {
-  font-size: 12pt;
-  font-style: bold;
+  font-size: 10pt;
 }
 h2 {
   font-size: 12pt;
 }
 h3 {
-  font-size: 12pt;
-  font-style: italic;
-  font-weight: 100;
+  font-size: 10pt;
 }
 h4 {
-  font-size: 12pt;
+  font-size: 10pt;
 }
 h5 {
-  font-size: 12pt;
+  font-size: 8pt;
 }
 h6 {
-  font-size: 12pt;
+  font-size: 8pt;
 }
 img {
     display: block;

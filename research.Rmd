@@ -18,26 +18,34 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-# Published:
+# Academic Papers 
 
-1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2021)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) with [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/).
+## 1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2021)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) with [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/).
 
-    *Forthcoming* at the  **Annals of Statistics** 
+### *Forthcoming* at the **Annals of Statistics**
+
+---
     
-# In Progress:
+## 2. [Supply Chain Disruptions: Evidence from the Bankruptcy of Hanjin Shipping (2021) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272)
     
-2. [Supply Chain Disruptions: Evidence from the Bankruptcy of Hanjin Shipping (2021) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272)
-    
-      *Resubmitted* to **Manufacturing & Service Operations Management**
+### *Resubmitted* to **Manufacturing & Service Operations Management**
+
+---
   
-3. Disclosure-Driven Social Engagement in Supply Chains (2021) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
-    
-      **[Winner: POMS College of Sustainable Operations, Best Student Paper Competition](https://poms.org/colleges/csustops/)**
+## 3. Disclosure-Driven Social Engagement in Supply Chains (2021) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
+  
+### *Under Review* at **Management Science**
+
+### [Winner: POMS College of Sustainable Operations, Best Student Paper Competition](https://poms.org/colleges/csustops/)
+
+---
       
-4. The Retail Labor Productivity Paradox (2021) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 4. The Retail Labor Productivity Paradox (2021) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+***
 
 # Cases and Teaching Material:
 
 1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
 
-   **Harvard Business School Tutorial 621-708, February 2021**
+### **Harvard Business School Tutorial 621-708**, February 2021
