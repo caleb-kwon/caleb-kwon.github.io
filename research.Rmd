@@ -32,9 +32,9 @@ output:
 
 ---
   
-## 3. Disclosure-Driven Social Engagement in Supply Chains (2021) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
+## 3. [Disclosure-Driven Social Engagement in Supply Chains (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3900182) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
   
-### *Under Review* at **Management Science**
+### *Under Review* at **Manufacturing & Service Operations Management**
 
 ### [Winner: POMS College of Sustainable Operations, Best Student Paper Competition](https://poms.org/colleges/csustops/)
 
