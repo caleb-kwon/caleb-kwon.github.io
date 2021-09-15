@@ -6,6 +6,10 @@ output:
 
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dpi=300,fig.width=7)
+```
+
 <!-- <script> -->
 <!--    $(document).ready(function() { -->
 <!--      $head = $('#header'); -->
@@ -30,6 +34,8 @@ output:
 </div>
 
 <img src="images/caleb_hbs_new.jpg" height = "300" style ="display:block; margin-left: auto; margin-right:auto;">
+
+
 
 <style type="text/css">
     /* default styles here for older browsers. 
