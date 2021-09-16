@@ -29,7 +29,7 @@ knitr::opts_chunk$set(dpi=300,fig.width=7)
   gtag('config', 'UA-165847699-1');
 </script>
 
-```{r pic, echo = FALSE, dpi = 200, out.width = "50%"}
+```{r pic, echo = FALSE, dpi = 200, out.width = "55%"}
 knitr::include_graphics("images/caleb_light.jfif")
 ```
 
