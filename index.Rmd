@@ -29,7 +29,7 @@ knitr::opts_chunk$set(dpi=300,fig.width=7)
   gtag('config', 'UA-165847699-1');
 </script>
 
-```{r pic, echo = FALSE, dpi = 200, out.width = "55%"}
+```{r pic, echo = FALSE, dpi = 200, out.width = "45%"}
 knitr::include_graphics("images/caleb_light.jfif")
 ```
 
@@ -75,9 +75,9 @@ knitr::include_graphics("images/caleb_light.jfif")
 
 # Caleb Kwon 
 
-I'm a 3rd year PhD student in Operations Management at Harvard University (Business School and the Graduate School of Arts & Sciences). I am interested in Supply Chains, Retail Operations, and Econometrics. I am grateful to be advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).  
+I'm a 3rd year PhD student in Operations Management at Harvard University (Business School and the Graduate School of Arts & Sciences). My research interests are in Supply Chains, Retail Operations and Econometrics. I am grateful to be advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).  
 
-I'm originally from Vancouver, Canada. Prior to Harvard, I obtained a B.A. in Economics from Simon Fraser University and an M.A. in Economics from Northwestern University. 
+I'm originally from Vancouver, Canada. Prior to Harvard, I obtained a B.A. in Economics from Simon Fraser University and an M.A. in Economics from Northwestern University.
 
 ## Some Links
 
