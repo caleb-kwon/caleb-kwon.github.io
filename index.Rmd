@@ -3,6 +3,8 @@ output:
     html_document:
          css: styles.css
          anchor_sections: false
+         self_contained: yes
+         mode: selfcontained
 
 ---
 
