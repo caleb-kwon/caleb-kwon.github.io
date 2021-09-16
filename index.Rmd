@@ -29,13 +29,15 @@ knitr::opts_chunk$set(dpi=300,fig.width=7)
   gtag('config', 'UA-165847699-1');
 </script>
 
-
+```{r pic, echo = FALSE, dpi = 200, out.width = "50%"}
+knitr::include_graphics("images/caleb_light.jfif")
+```
 
 
 <div style="margin-bottom:25px;">
 </div>
 
-<img src="images/caleb_light.jfif" height = "300" style ="display:block; margin-left: auto; margin-right:auto;">
+<!-- <img src="images/caleb_light.jfif" height = "300" style ="display:block; margin-left: auto; margin-right:auto;"> -->
 
 
 
