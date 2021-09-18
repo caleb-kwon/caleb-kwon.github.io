@@ -30,7 +30,8 @@ knitr::opts_chunk$set(dpi=300,fig.width=7)
 </script>
 
 ```{r pic, echo = FALSE, dpi = 200, out.width = "45%"}
-knitr::include_graphics("images/caleb_light.jfif")
+#knitr::include_graphics("images/caleb_light.jfif")
+knitr::include_graphics("images/caleb_1.jpg")
 ```
 
 
