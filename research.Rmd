@@ -22,7 +22,7 @@ output:
 
 ## 1. [Estimation of the Number of Components in Nonparametric Multivariate Finite Mixture Models (2021)](https://www.dropbox.com/s/cxkmkbzp9b1azke/paper_draft_jun_2020.pdf?dl=0) with [Eric Mbakop](https://wpsites.ucalgary.ca/eric-mbakop/).
 
-### *Forthcoming* at the **Annals of Statistics**
+### **Annals of Statistics** 49(4) 2178-2205 (August, 2021)
 
 ---
     
