@@ -76,13 +76,16 @@ knitr::include_graphics("images/caleb_1.jpg")
 
 # Caleb Kwon 
 
-I'm a 3rd year PhD student in Operations Management at Harvard University (Business School and the Graduate School of Arts & Sciences). My research interests are in Supply Chains, Retail Operations and Econometrics. I am grateful to be advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).  
+I'm a 3rd year PhD student in Operations Management at Harvard University (Business School and the Graduate School of Arts & Sciences). 
 
-I'm originally from Vancouver, Canada. Prior to Harvard, I obtained a B.A. in Economics from Simon Fraser University and an M.A. in Economics from Northwestern University.
+My dissertation explores the associations between managerial talent, labor scheduling decisions, and firm performance. Please see the [Research](https://calebkwon.com/research.html) tab for my papers.  
+
+My dissertation committee consists of Professors [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) (Chairperson), [Antonio Moreno](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1029325), and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486).  
+
 
 ## Some Links
 
-  - [HBS Profile](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260) 
-  - [CV/Resume](https://calebkwon.com/CV.html)
-  - [Google Scholar](https://scholar.google.com/citations?user=mBw3GmIAAAAJ)
+  - [Harvard Business School Profile](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260) 
+  - [Curriculum Vitae/Resume](https://calebkwon.com/CV.html)
+  - [Google Scholar Profile](https://scholar.google.com/citations?user=mBw3GmIAAAAJ)
 

@@ -19,7 +19,7 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-``` {r fig.align = "center", fig.cap = "Klarman Hall, Harvard Business School", echo=FALSE,  out.width = "40%"}
+``` {r fig.align = "center", fig.cap = "Klarman Hall, Harvard Business School", echo=FALSE,  out.width = "50%"}
 knitr::include_graphics("C:/Users/caleb/Documents/GitHub/caleb-kwon.github.io/images/klarman.jpg")
 
 ```
@@ -30,7 +30,9 @@ knitr::include_graphics("C:/Users/caleb/Documents/GitHub/caleb-kwon.github.io/im
   - Technology and Operations Management -- Required Curriculum  Fall '19
   - Technology and Operations Management -- Required Curriculum  Fall '20 
       - [Please click here for teaching evaluations](https://calebkwon.com/rctom_reviews) 
-  
+      
+# The University of Chicago -- Booth School of Business
+  - Operations Management Executive Education -- Spring 2022
 
 # Northwestern University -- Kellogg School of Management 
  
