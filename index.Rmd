@@ -78,9 +78,7 @@ knitr::include_graphics("images/caleb_1.jpg")
 
 I'm a 3rd year PhD Candidate in Operations Management at Harvard University. 
 
-My dissertation explores the associations between managerial talent, labor scheduling decisions, and firm performance. I am particularly interested in how firms can use data-driven techniques to identify manager capabilities by examining labor scheduling decisions, and efficiently allocate store managers across their stores. Please see the [Research](https://calebkwon.com/research.html) tab for my papers.  
-
-My dissertation committee consists of Professors [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) (Chairperson), [Antonio Moreno](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1029325), and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486).  
+My dissertation explores the associations between managerial talent, labor scheduling decisions, and firm performance. Please see the [Research](https://calebkwon.com/research.html) tab for my papers.My dissertation committee consists of Professors [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) (Chairperson), [Antonio Moreno](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1029325), and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486).  
 
 Prior to Harvard, I received a B.A. in Economics from Simon Fraser University, and an M.A in Economics from Northwestern University. 
 
