@@ -54,9 +54,22 @@ output:
 
 # Cases and Teaching Material:
 
-## 1. [Getting Started in R Cloud Studio (2021)](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
+## 1. [Getting Started in R Cloud Studio](https://www.hbs.edu/faculty/Pages/item.aspx?num=59552) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
 
 ### **Harvard Business School Tutorial 621-708**, February 2021
+
+## 2. [Innovation at Uber: The Launch of Express POOL Assignment Solutions Video](https://www.hbs.edu/faculty/Pages/item.aspx?num=61245) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
+
+### **Harvard Business School Multimedia/Video Supplement 622-704**, January 2022
+
+## 3. [Innovation at Uber: The Launch of Express POOL Assignment Solutions: Comparing Commuting and Non-Commuting Hours](https://www.hbs.edu/faculty/Pages/item.aspx?num=61244) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
+
+### **Harvard Business School Teaching Note 622-054**, January 2022
+
+## 4. [Innovation at Uber: The Launch of Express POOL Assignment: Comparing Commuting and Non-Commuting Hours](http://hbr.org/product/Innovation-at-Uber--The-L/an/622053-PDF-ENG) with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022).
+
+### **Harvard Business School Supplement 622-053**, January 2022
+
 
 ---
 
