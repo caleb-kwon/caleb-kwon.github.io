@@ -389,24 +389,43 @@ div.tocify {
   gtag('config', 'UA-165847699-1');
 </script>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>Here is some code for procedures commonly used in empirical analysis in Operations Management and Economics. The code is mostly self-contained, but requires a basic understanding of <code>data.table</code> and piping <code>%&gt;%</code>.</p>
-<p>The code should be sufficiently fast (due to <code>data.table</code> and other user contributed packages and not because of me). But because my primary focus was (and is) to write code that I can easily read months later, the code is probably not the fastest or most optimized.</p>
-<p>Please email me if you spot any errors or have any questions or suggestions! I also take requests, so please email me if you think that there are commonly used routines that I’ve missed.</p>
+<p>Here is some code for procedures commonly used in empirical analysis
+in Operations Management and Economics. The code is mostly
+self-contained, but requires a basic understanding of
+<code>data.table</code> and piping <code>%&gt;%</code>.</p>
+<p>The code should be sufficiently fast (due to <code>data.table</code>
+and other user contributed packages and not because of me). But because
+my primary focus was (and is) to write code that I can easily read
+months later, the code is probably not the fastest or most
+optimized.</p>
+<p>Please email me if you spot any errors or have any questions or
+suggestions! I also take requests, so please email me if you think that
+there are commonly used routines that I’ve missed.</p>
 <hr />
 <div id="wrds" class="section level1" number="1">
-<h1 number="1"><span class="header-section-number">1</span> WRDS</h1>
+<h1><span class="header-section-number">1</span> WRDS</h1>
 <hr />
-<p>Because WRDS contains datasets that are very popular among OM scholars and economists, I begin with code that allows you to fetch data from WRDS in R directly, and not require you to log into WRDS each time and painstakingly choose the dataset and variables over and over again.</p>
-<p>You can find this tutorial on WRDS, but here is a summary and example codes.</p>
+<p>Because WRDS contains datasets that are very popular among OM
+scholars and economists, I begin with code that allows you to fetch data
+from WRDS in R directly, and not require you to log into WRDS each time
+and painstakingly choose the dataset and variables over and over
+again.</p>
+<p>You can find this tutorial on WRDS, but here is a summary and example
+codes.</p>
 <p>Setup (for OS X):</p>
 <ol style="list-style-type: decimal">
 <li>Install and load the package <code>RPostgres</code>.</li>
-<li>Using terminal create the file .pgpass by entering the following in terminal: <code>nano ~/.pgpass</code></li>
-<li>Input <code>wrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password</code> in the .pgpass using a text editor (e.g., Sublime Text 3).</li>
-<li>Secure this file by entering the following in terminal: <code>chmod 600 ~/.pgpass</code></li>
+<li>Using terminal create the file .pgpass by entering the following in
+terminal: <code>nano ~/.pgpass</code></li>
+<li>Input
+<code>wrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password</code>
+in the .pgpass using a text editor (e.g., Sublime Text 3).</li>
+<li>Secure this file by entering the following in terminal:
+<code>chmod 600 ~/.pgpass</code></li>
 </ol>
 <div id="connect-to-wrds-in-r" class="section level2" number="1.1">
-<h2 number="1.1"><span class="header-section-number">1.1</span> Connect to WRDS in R</h2>
+<h2><span class="header-section-number">1.1</span> Connect to WRDS in
+R</h2>
 <pre class="r"><code># Required Package
 library(RPostgres)
 
@@ -418,8 +437,10 @@ wrds &lt;- dbConnect(Postgres(),
                   sslmode=&#39;require&#39;,
                   user=&#39;USERID&#39;) # Input USER ID here. </code></pre>
 </div>
-<div id="compustat-fundamentals-quarterly" class="section level2" number="1.2">
-<h2 number="1.2"><span class="header-section-number">1.2</span> Compustat Fundamentals Quarterly</h2>
+<div id="compustat-fundamentals-quarterly" class="section level2"
+number="1.2">
+<h2><span class="header-section-number">1.2</span> Compustat
+Fundamentals Quarterly</h2>
 <pre class="r"><code># Download data 
 compustat_fundQ_DT &lt;- dbSendQuery(wrds, 
 &quot;select CONM, TIC, EXCHG,GVKEY, DATADATE, INVTQ, ATQ, SALEQ, COGSQ  
@@ -429,8 +450,10 @@ compustat_fundQ_DT &lt;- dbSendQuery(wrds,
 # Fetch all rows
 compustat_fundQ_DT &lt;- dbFetch(compustat_fundQ_DT, n=-1)</code></pre>
 </div>
-<div id="compustat-fundamentals-annual" class="section level2" number="1.3">
-<h2 number="1.3"><span class="header-section-number">1.3</span> Compustat Fundamentals Annual</h2>
+<div id="compustat-fundamentals-annual" class="section level2"
+number="1.3">
+<h2><span class="header-section-number">1.3</span> Compustat
+Fundamentals Annual</h2>
 <pre class="r"><code># Download data 
 compustat_fundA_DT &lt;- dbSendQuery(wrds, 
 &quot;select CONM, TIC, EXCHG,GVKEY, DATADATE, INVT, AT, SALE, COGS  
@@ -441,7 +464,7 @@ compustat_fundA_DT &lt;- dbSendQuery(wrds,
 compustat_fundA_DT &lt;- dbFetch(compustat_fundA_DT, n=-1)</code></pre>
 </div>
 <div id="crsp" class="section level2" number="1.4">
-<h2 number="1.4"><span class="header-section-number">1.4</span> CRSP</h2>
+<h2><span class="header-section-number">1.4</span> CRSP</h2>
 <pre class="r"><code># Download data 
 CRSP_daily_DT &lt;- dbSendQuery(wrds, &quot;SELECT CUSIP,PERMNO,DATE,PRC,SHROUT,VOL
                    FROM CRSP.DSF
@@ -454,20 +477,22 @@ CRSP_daily_DT &lt;- dbFetch(CRSP_daily_DT, n=-1)</code></pre>
 </div>
 </div>
 <div id="data-preliminaries" class="section level1" number="2">
-<h1 number="2"><span class="header-section-number">2</span> Data Preliminaries</h1>
+<h1><span class="header-section-number">2</span> Data Preliminaries</h1>
 <hr />
 <div id="setup" class="section level2" number="2.1">
-<h2 number="2.1"><span class="header-section-number">2.1</span> Setup</h2>
-<p>Instead of loading each package manually, I use the following approach:</p>
+<h2><span class="header-section-number">2.1</span> Setup</h2>
+<p>Instead of loading each package manually, I use the following
+approach:</p>
 <pre class="r"><code># First load the package &#39;pacman&#39;
 library(pacman)
 
 # Load every other package required using p_load
 pacman::p_load(data.table, magrittr, stargazer, fixest, lfe, readstata13, rmatio, openxlsx)</code></pre>
-<p>This way, I dont’ have to keep writing out <code>library(package_name)</code> over and over again.</p>
+<p>This way, I dont’ have to keep writing out
+<code>library(package_name)</code> over and over again.</p>
 </div>
 <div id="reading-data" class="section level2" number="2.2">
-<h2 number="2.2"><span class="header-section-number">2.2</span> Reading Data</h2>
+<h2><span class="header-section-number">2.2</span> Reading Data</h2>
 <p>We typically encounter three types of data files:</p>
 <ol style="list-style-type: decimal">
 <li>.CSV</li>
@@ -475,7 +500,10 @@ pacman::p_load(data.table, magrittr, stargazer, fixest, lfe, readstata13, rmatio
 <li>.DAT</li>
 <li>.MAT</li>
 </ol>
-<p>Below are the packages and codes that I use for the four types. Note that I pipe everything into setDT() to convert the data frames into a data table (except when using data table’s fread function which handles this automatically).</p>
+<p>Below are the packages and codes that I use for the four types. Note
+that I pipe everything into setDT() to convert the data frames into a
+data table (except when using data table’s fread function which handles
+this automatically).</p>
 <pre class="r"><code># CSV
 CSV_DT &lt;- data.table::fread(&quot;/Users/ckwon/Dropbox/Academic Research/data.csv&quot;)
 
@@ -489,7 +517,7 @@ CSV_DT &lt;- openxlsx::read.xlsx(&quot;/Users/ckwon/Dropbox/Academic Research/da
 MAT_DT &lt;- read.mat(&quot;/Users/ckwon/Dropbox/Academic Research/data.dat&quot;) %&gt;% setDT() </code></pre>
 </div>
 <div id="winsorizing" class="section level2" number="2.3">
-<h2 number="2.3"><span class="header-section-number">2.3</span> Winsorizing</h2>
+<h2><span class="header-section-number">2.3</span> Winsorizing</h2>
 <pre class="r"><code># Required package
 pacman::p_load(DescTools)
 
@@ -500,8 +528,12 @@ winz_var &lt;- c(&quot;at&quot;, &quot;grossmargin&quot;, &quot;debt_equity&quot
 DT[,(winz_var) := lapply(.SD, Winsorize, minval = NULL, maxval = NULL,  probs = c(0.02, 0.98),  na.rm = TRUE), .SDcols = winz_var]</code></pre>
 </div>
 <div id="trimming" class="section level2" number="2.4">
-<h2 number="2.4"><span class="header-section-number">2.4</span> Trimming</h2>
-<p>People use ‘trimming’ to mean two different things: (1) Removing observations that fall above or below a certain quantile, or (2) removing observations that don’t fit a certain criterion, e.g., return on equity is smaller than 0.01. I present code for both meanings below.</p>
+<h2><span class="header-section-number">2.4</span> Trimming</h2>
+<p>People use ‘trimming’ to mean two different things: (1) Removing
+observations that fall above or below a certain quantile, or (2)
+removing observations that don’t fit a certain criterion, e.g., return
+on equity is smaller than 0.01. I present code for both meanings
+below.</p>
 <pre class="r"><code># Definition 1: Delete obs. where return on equity falls outside the (2%, 98%) percentiles
 quantile_roe_98 &lt;- quantile(DT$roe, probs = 0.98)
 quantile_roe_02 &lt;- quantile(DT$roe, probs = 0.02)
@@ -527,39 +559,54 @@ DT &lt;- DT %&gt;%
 </div>
 </div>
 <div id="regressions" class="section level1" number="3">
-<h1 number="3"><span class="header-section-number">3</span> Regressions</h1>
+<h1><span class="header-section-number">3</span> Regressions</h1>
 <hr />
-<p>Now, onto the fun part!There are many packages that run regressions very efficiently in R. My two favorites are the packages <code>lfe</code> and <code>fixest</code>. I currently favor the former, as the latter is not compatible with <code>stargazer</code>. However, <code>fixest</code> is often faster and includes a very fast Poisson fixed effects procedure which <code>lfe</code> does not have.</p>
+<p>Now, onto the fun part!There are many packages that run regressions
+very efficiently in R. My two favorites are the packages
+<code>lfe</code> and <code>fixest</code>. I currently favor the former,
+as the latter is not compatible with <code>stargazer</code>. However,
+<code>fixest</code> is often faster and includes a very fast Poisson
+fixed effects procedure which <code>lfe</code> does not have.</p>
 <div id="ordinary-least-squares" class="section level2" number="3.1">
-<h2 number="3.1"><span class="header-section-number">3.1</span> Ordinary Least Squares</h2>
+<h2><span class="header-section-number">3.1</span> Ordinary Least
+Squares</h2>
 <pre class="r"><code># Initialize dataset (should already be in R)
 DT &lt;- iris %&gt;% setDT()
 
 # Run regression
 reg_Sepal.Length_Sepal.Width &lt;- felm(Sepal.Length ~ Sepal.Width, data = DT)</code></pre>
-<p>Consistent naming conventions are important when you run many regressions and need to later export them into <span class="math inline">\(LaTeX\)</span>. I follow the convention of starting with reg and then appending in the name of the dependent variable and the most independent variable of interest, e.g. <code>reg_DEPVAR_INDEPVAR</code>.</p>
+<p>Consistent naming conventions are important when you run many
+regressions and need to later export them into <span
+class="math inline">\(LaTeX\)</span>. I follow the convention of
+starting with reg and then appending in the name of the dependent
+variable and the most independent variable of interest,
+e.g. <code>reg_DEPVAR_INDEPVAR</code>.</p>
 </div>
 <div id="poisson" class="section level2" number="3.2">
-<h2 number="3.2"><span class="header-section-number">3.2</span> Poisson</h2>
+<h2><span class="header-section-number">3.2</span> Poisson</h2>
 </div>
 <div id="zero-inflated-poisson" class="section level2" number="3.3">
-<h2 number="3.3"><span class="header-section-number">3.3</span> Zero Inflated Poisson</h2>
+<h2><span class="header-section-number">3.3</span> Zero Inflated
+Poisson</h2>
 </div>
 </div>
 <div id="fixed-effects" class="section level1" number="4">
-<h1 number="4"><span class="header-section-number">4</span> Fixed Effects</h1>
+<h1><span class="header-section-number">4</span> Fixed Effects</h1>
 </div>
 <div id="difference-in-differences" class="section level1" number="5">
-<h1 number="5"><span class="header-section-number">5</span> Difference in Differences</h1>
+<h1><span class="header-section-number">5</span> Difference in
+Differences</h1>
 </div>
 <div id="regression-discontinuity" class="section level1" number="6">
-<h1 number="6"><span class="header-section-number">6</span> Regression Discontinuity</h1>
+<h1><span class="header-section-number">6</span> Regression
+Discontinuity</h1>
 </div>
 <div id="instrumental-variables" class="section level1" number="7">
-<h1 number="7"><span class="header-section-number">7</span> Instrumental Variables</h1>
+<h1><span class="header-section-number">7</span> Instrumental
+Variables</h1>
 </div>
 <div id="presenting-results" class="section level1" number="8">
-<h1 number="8"><span class="header-section-number">8</span> Presenting Results</h1>
+<h1><span class="header-section-number">8</span> Presenting Results</h1>
 <hr />
 </div>
 
