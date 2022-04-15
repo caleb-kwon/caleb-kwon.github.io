@@ -36,5 +36,9 @@ img-circle {
     border-radius: 50%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
