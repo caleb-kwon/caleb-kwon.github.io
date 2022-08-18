@@ -83,7 +83,7 @@ output:
 
 # Caleb Kwon 
 
-I'm a 4th year PhD Candidate in Operations Management at Harvard University. I am very fortunate to be advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+I'm a 4th year PhD Candidate in Operations Management at Harvard University. I am advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 My dissertation explores the associations between managerial talent, labor scheduling decisions, and firm performance. My research leverages "big data" obtained from various retailers and tech companies to analyze the effects of micro-level decisions made by managers on store outcomes. Please see the [Research](https://calebkwon.com/research.html) tab for my papers.
 
