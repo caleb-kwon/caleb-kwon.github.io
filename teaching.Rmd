@@ -25,9 +25,9 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ``` {r fig.align = "center", fig.cap = "Klarman Hall, Harvard Business School", echo=FALSE,  out.width = "50%"}
 
-knitr::include_graphics("/Users/ckwon/Documents/GitHub/caleb-kwon.github.io/images/klarman.jpg")
+#knitr::include_graphics("/Users/ckwon/Documents/GitHub/caleb-kwon.github.io/images/klarman.jpg")
 
-#knitr::include_graphics("C:/Users/caleb/Documents/GitHub/caleb-kwon.github.io/images/klarman.jpg")
+knitr::include_graphics("C:/Users/caleb/Documents/GitHub/caleb-kwon.github.io/images/klarman.jpg")
 
 ```
 
