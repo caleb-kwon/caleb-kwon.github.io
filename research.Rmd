@@ -1,9 +1,10 @@
 ---
-title: ""
-output: 
-    html_document:
-         css: styles.css
-         anchor_sections: false
+title: ''
+output:
+  pdf_document: default
+  html_document:
+    css: styles.css
+    anchor_sections: no
 ---
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,6 +25,8 @@ output:
 
 ### **Annals of Statistics** (August, 2021)
 
+##### Summary: We provide a novel estimator for the number of mixture components in nonparametric finite mixture models. 
+
 ---
     
 ## 2. [Supply Chain Disruptions: Evidence from the Bankruptcy of Hanjin Shipping (2021) ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3293272)
@@ -31,11 +34,13 @@ output:
    
 ### Under revision for re-submission.
 
+##### Summary: I show that supply chain disruptions can cause large increases to firms' inventory holdings. 
+
 ---
   
 ## 3. [Disclosure-Driven Social Engagement in Supply Chains (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3900182) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
 
-### *Major Revision (1st Round)* at **MSOM**
+### *Major Revision* at **Manufacturing & Service Operations Management**
 
 ### [Winner: POMS College of Sustainable Operations, Best Student Paper Competition](https://poms.org/colleges/csustops/)
 
@@ -43,19 +48,37 @@ output:
 
 ## 4. [The Effect of Employee Lateness and Absenteeism on Store Performance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-### Submitted. 
+### Submitted (Please Email for Draft) 
 
 ---
 
 
-## 5. Human-Computer Interactions in Labor Scheduling Decisions with [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486) and [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 5. Human-Computer Interactions in Labor Scheduling Decisions with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486)
+
+
+### Submitted (Please Email for Draft) 
+
+---
+
+## 6. The Effects of Fair Workweek Laws on Store Performance: Evidence from Chicago [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+### Submitted (Please Email for Draft) 
+
+---
+
+## 7. Manager Performance and Labor Scheduling Practices with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+---
+
+## 8. The Effects of the Minimum Wage on Labor Scheduling Practices with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+---
+
+## 9. On the Interactions Between the Minimum Wage and Fair Workweek Laws  [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 ---
 
 
-## 6. Manager Performance and Labor Scheduling Practices with [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486) and [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
-
----
       
 
 
