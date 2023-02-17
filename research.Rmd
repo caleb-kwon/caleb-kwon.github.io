@@ -58,17 +58,17 @@ output:
 
 ---
 
-## 6. [The Effects of Fair Workweek Laws on Store Performance: Evidence from Chicago](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4351186) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+<!-- ## 6. [The Effects of Fair Workweek Laws on Store Performance: Evidence from Chicago](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4351186) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534). -->
 
-### Submitted
+<!-- ### Submitted -->
+
+<!-- --- -->
+
+## 6. Manager Performance and Labor Scheduling Practices with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 ---
 
-## 7. Manager Performance and Labor Scheduling Practices with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
-
----
-
-## 8. The Effects of the Minimum Wage on Labor Scheduling Practices with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 7. The Effects of the Minimum Wage on Labor Scheduling Practices with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 ---
 
