@@ -44,9 +44,14 @@ output:
 
 ---
 
-## 4. [The Effect of Employee Lateness and Absenteeism on Store Performance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 4. [The Effect of Employee Lateness and Absenteeism on Store Performance](https://www.dropbox.com/s/hqu3u7kst8qtkc9/Lateness_and_Absenteeism.pdf?raw=1) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-### Submitted (Please Email for Draft) 
+### Under Revision
+### [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723)
+
+
+<!-- ### [Dropbox Link](https://www.dropbox.com/s/hqu3u7kst8qtkc9/Lateness_and_Absenteeism.pdf?raw=1), [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) -->
+
 
 ---
 
