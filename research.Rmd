@@ -38,16 +38,16 @@ output:
   
 ## 3. [Disclosure-Driven Social Engagement in Supply Chains (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3900182) with [Andrew Di Wu](https://sites.google.com/site/diandrewwu/).
 
-### *Major Revision* at **Manufacturing & Service Operations Management**
+### *R&R* at **Manufacturing & Service Operations Management**
 
 ### [Winner: POMS College of Sustainable Operations, Best Student Paper Competition](https://poms.org/colleges/csustops/)
 
 ---
 
-## 4. [The Effect of Employee Lateness and Absenteeism on Store Performance](https://www.dropbox.com/s/hqu3u7kst8qtkc9/Lateness_and_Absenteeism.pdf?raw=1) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 4. [The Effect of Employee Lateness and Absenteeism on Store Performance]() with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 ### Under Revision
-### [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723)
+<!-- ### [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) -->
 
 
 <!-- ### [Dropbox Link](https://www.dropbox.com/s/hqu3u7kst8qtkc9/Lateness_and_Absenteeism.pdf?raw=1), [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) -->
@@ -56,10 +56,10 @@ output:
 ---
 
 
-## 5. [Human-Computer Interactions in Demand Forecasting and Labor Scheduling Decisions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4296344) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486)
+## 5. [Human-Computer Interactions in Demand Forecasting and Labor Scheduling Decisions]() with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486)
 
+### *R&R* at **Management Science**
 
-### Submitted 
 
 ---
 
