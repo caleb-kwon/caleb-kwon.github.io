@@ -85,7 +85,7 @@ output:
 
 I'm a 4th year PhD Candidate in Operations Management at Harvard University. I am advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-My research explores the associations between managerial talent, labor scheduling decisions, automation, and firm performance. Please see the [Research](https://calebkwon.com/research.html) tab for my papers. As part of my research agenda, I am a consultant to a major technology company that develops and sells algorithms to firms in multiple industries.
+My research explores the associations between managerial talent, labor scheduling decisions, automation, and firm performance. Please see the [Research](https://calebkwon.com/research.html) tab for my papers. Related to my research agenda, I am a consultant to a major technology company that develops and sells algorithms to firms in multiple industries.
 
 In addition to my research, I have been involved in various teaching assignments during my PhD. At Harvard, I have served as a teaching fellow in the full-time MBA program at HBS, and was an executive coach in the [Program For Leadership Development](https://www.exed.hbs.edu/leadership-development/) Executive Education program. At the University of Chicago, I served as a teaching fellow in the Executive Education Program at the Booth School of Business (London and Hong Kong). Finally, I am an MBA course instructor at Boston College Caroll School of Management, where I teach data science and coding for business. 
 
