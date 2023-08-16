@@ -44,9 +44,9 @@ output:
 
 ---
 
-## 4. [The Effect of Employee Lateness and Absenteeism on Store Performance]() with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 4. [The Effects of Inconsistent Work Schedules on Employe Lateness and Absenteeism]() (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-### Under Revision
+### Under Review  at **Manufacturing & Service Operations Management**
 <!-- ### [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) -->
 
 
@@ -56,9 +56,10 @@ output:
 ---
 
 
-## 5. [Human-Computer Interactions in Demand Forecasting and Labor Scheduling Decisions]() with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486)
+## 5. [Human-Computer Interactions in Demand Forecasting and Labor Scheduling Decisions]() (2022) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Jorge Tamayo](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486)
 
 ### *R&R* at **Management Science**
+#### First Draft: May 21, 2022. 
 
 
 ---
@@ -81,9 +82,17 @@ output:
 
 <!-- --- -->
 
-## 8. Understanding the Effects of Fair Workweek Laws on Worker Schedules and Employment with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 8. [The Effects of Fair Workweek Laws on Worker Schedules: Evidence from Chicago](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4542956) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-### Submitted. 
+### Rejected, with invitation to Resubmit at  **Management Science**
+#### Note: New results that include results from Los Angeles' Fair Workweek Law coming soon. 
+
+---
+
+## 9. [The Effects of Fair Workweek Laws on Store Performance: Evidence from Chicago and Los Angeles]() with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+#### Note: Original paper included only results from Chicago. New paper that includes results from Los Angeles' Fair Workweek Law coming soon. 
+#### First Draft: November 21, 2022. 
 
 ---
 
@@ -111,4 +120,12 @@ output:
 
 
 ---
+
+
+# Resting Papers 
+
+## 1. [The Effect of Employee Lateness and Absenteeism on Store Performance]() with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+
+### Under Revision
+
 
