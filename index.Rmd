@@ -85,7 +85,7 @@ output:
 
 I'm a 5th year PhD Candidate in Operations Management at Harvard University. I am advised by Professor [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
-**I am on the 2023-2024 Job Market.**
+**I am on the 2023-2024 Job Market. I will be available for interviews at INFORMS 2023.**
 
 My research investigates the connections between managerial talent, labor scheduling decisions, automation, and firm performance. For more details on my papers, please visit the [Research Section](https://calebkwon.com/research.html) of my website. As part of my research, I also work as a consultant for a major technology company that creates and offers algorithmic solutions to firms across various industries. 
 
