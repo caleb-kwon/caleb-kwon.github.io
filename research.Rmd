@@ -93,7 +93,8 @@ output:
 
 #### Note: Original paper included only results from Chicago. New paper that includes results from Los Angeles' Fair Workweek Law coming soon. 
 #### First Draft: November 21, 2022. 
-#### Note (August 23, 2023). This paper was originally taken down because the corresponding author (Caleb Kwon) wanted to present results that included more data from additional retailers and also include Los Angeles' Fair Workweek law to make the analyses more comprehensive. However, this paper has now been reuploaded due to the existance of articles published after the original upload date of this paper. The unchanged version from November 21, 2022 is presented above. 
+#### [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4351186)
+<!-- #### Note (August 23, 2023). This paper was originally taken down because the corresponding author (Caleb Kwon) wanted to present results that included more data from additional retailers and also include Los Angeles' Fair Workweek law to make the analyses more comprehensive. However, this paper has now been reuploaded due to the existance of articles published after the original upload date of this paper. The unchanged version from November 21, 2022 is presented above.  -->
 
 ---
 
