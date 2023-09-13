@@ -38,6 +38,12 @@ knitr::include_graphics("C:/Users/caleb/Documents/GitHub/caleb-kwon.github.io/im
   - Technology and Operations Management -- Required Curriculum  Fall '20 
       - [Please click here for teaching evaluations](https://calebkwon.com/rctom_reviews) 
       
+# Boston College -- Carroll School of Management 
+
+  - Coding for Business (Instructor) -- Summer 2023
+    - [Please click here for teaching evaluations](https://www.dropbox.com/scl/fi/vb5i4mt92ch0sifohgrdg/BZAN802201_2023SUM1_Kwon_e3894545-0b81-4c8e-9a56-786225fffd40en-US.pdf?rlkey=gczvxwqtnc9ej8ram450oudje&raw=1)
+  
+      
 # The University of Chicago -- Booth School of Business
   - Operations Management Executive Education -- Spring 2022
 
