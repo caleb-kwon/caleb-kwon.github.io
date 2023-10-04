@@ -87,7 +87,9 @@ I'm a 5th year PhD Candidate in Operations Management at Harvard University. I a
 
 **I am on the 2023-2024 Job Market. I will be available for interviews at INFORMS 2023. I will be presenting at session SB27 held in CC-North 131C on October 15th 10:45AM -- 12:00PM.**
 
-My research investigates the connections between managerial ability, labor scheduling decisions, automation, and firm performance. For more details on my papers, please visit the [Research Section](https://calebkwon.com/research.html) of my website. As part of my research, I also work as a data consultant for a major technology company that creates and offers algorithmic solutions to firms across various industries. I collaborate with this company to empirically study how managers interact with AI tools that forecast demand and schedule labor using data from tens of thousands of retail stores across the world. 
+My research investigates the connections between managerial ability, labor scheduling decisions, automation, and firm performance. For more details on my papers, please visit the [Research Section](https://calebkwon.com/research.html) of my website. 
+
+As part of my research, I also work as a data consultant for a major technology company that creates and offers algorithmic solutions to firms across various industries. I collaborate with this company to empirically study how managers interact with AI tools that forecast demand and schedule labor using data from tens of thousands of retail stores across the world. 
 
 During my PhD, I have participated in multiple teaching roles. At Harvard, I have been a teaching fellow in the full-time MBA program at HBS and acted as an executive coach in the [Program For Leadership Development Executive Education program](https://www.exed.hbs.edu/leadership-development/). I have also served as a teaching fellow in the Executive Education Program at the Booth School of Business (London and Hong Kong) at the University of Chicago. Additionally, I am an MBA course instructor at Boston College Carroll School of Management, where I teach data science and coding for business.
 

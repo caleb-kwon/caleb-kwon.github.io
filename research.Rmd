@@ -44,7 +44,7 @@ output:
 
 ---
 
-## 4. [The Effects of Inconsistent Work Schedules on Employe Lateness and Absenteeism]() (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 4. [The Effects of Inconsistent Work Schedules on Employe Lateness and Absenteeism](https://ssrn.com/abstract=4592763) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 ### Under Review  at **Manufacturing & Service Operations Management**
 <!-- ### [SSRN Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189723) -->
