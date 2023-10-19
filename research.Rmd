@@ -98,6 +98,11 @@ output:
 
 ---
 
+## 10. [The Impact of Input Inaccuracy on Leveraging AI Tools: Evidence from Algorithmic Labor Scheduling](https://papers.ssrn.com/abstract=4602747) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Antonio Moreno](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1029325). 
+
+
+---
+
 
       
 
