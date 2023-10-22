@@ -82,10 +82,10 @@ output:
 
 <!-- --- -->
 
-## 8. [The Effects of Fair Workweek Laws on Worker Schedules: Evidence from Chicago](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4542956) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 8. [The Real Effects of Fair Workweek Laws on Work Schedules: Evidence from Chicago, Los Angeles, and Philadelphia](https://papers.ssrn.com/abstract=4609755) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 ### Rejected, with invitation to Resubmit at  **Management Science**
-#### Note: New results that include results from Los Angeles' Fair Workweek Law coming soon. 
+### [Older draft with just Chicago results here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4542956)
 
 ---
 
@@ -98,10 +98,10 @@ output:
 
 ---
 
-<!-- ## 10. [The Impact of Input Inaccuracy on Leveraging AI Tools: Evidence from Algorithmic Labor Scheduling](https://papers.ssrn.com/abstract=4602747) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Antonio Moreno](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1029325).  -->
+## 10. [The Impact of Input Inaccuracy on Leveraging AI Tools: Evidence from Algorithmic Labor Scheduling](https://papers.ssrn.com/abstract=4602747) (2023) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534) and [Antonio Moreno](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1029325).
 
 
-<!-- --- -->
+---
 
 
       
