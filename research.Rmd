@@ -89,7 +89,7 @@ output:
 
 ---
 
-## 9. [The Effects of Fair Workweek Laws on Store Performance: Evidence from Chicago and Los Angeles](https://www.dropbox.com/scl/fi/i1enwo8gpwxbvief4cizz/Chicago_FW.pdf?rlkey=qirv2am8zm7yup75aac4sv4hx&raw=1) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
+## 9. [The Effects of Fair Workweek Laws on Store Performance: Evidence from Chicago and Los Angeles](https://www.dropbox.com/scl/fi/rt38fl19cis08ru7yd56j/CalebKwonJMP.pdf?rlkey=6pveh2bbojv91dhrxv6jbiz7l&raw=1) with [Ananth Raman](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6534).
 
 #### Note: Original paper included only results from Chicago. New paper that includes results from Los Angeles' Fair Workweek Law coming soon. 
 #### First Draft: November 21, 2022. 
