@@ -1,7 +1,7 @@
 name: "Caleb Kwon"
 output_dir: "."
 navbar:
-  title: "<img id=\"logo\" style=\"width: 100px;\" src=\"hbs.jpg\" />"
+  title: "<img id=\"logo\" style=\"width: 250px;\" src=\"mccombs_full.jpg\" />"
   left:
     - text: "Research"
       href: research.html
@@ -9,10 +9,9 @@ navbar:
       href: teaching.html
     - text: "CV/Resume"
       href: CV.html 
-
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:ckwon@hbs.edu
+      href: mailto:calebkwon93@gmail.com
     - icon: fa-user-alt fa-lg
       href: https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1160260
     - icon: fa-linkedin fa-lg
