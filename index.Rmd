@@ -83,7 +83,7 @@ output:
 
 # Caleb Kwon 
 
-I'm an incoming Assistant Professor in the [Information, Risk, and Operations Management Department](https://www.mccombs.utexas.edu/faculty-and-research/departments/irom/) at the University of Texas, McCombs School of Business. Currently, I am a PhD student at Harvard Business School, and I expect to graduate in May, 2024. 
+I'm an incoming Assistant Professor in the [Information, Risk, and Operations Management Department](https://www.mccombs.utexas.edu/faculty-and-research/departments/irom/) within the McCombs School of Business at the University of Texas at Austin. Currently, I am a PhD student at Harvard Business School, and I expect to graduate in May, 2024. 
 
 My research interests are in empirical Operations Management. Some of my recent research has examined the effects of Fair Workweek Laws and the effects of automation in retail. For more details on my papers, please visit the [Research Section](https://calebkwon.com/research.html) of my website. 
 
