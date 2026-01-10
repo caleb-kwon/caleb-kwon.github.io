@@ -2,38 +2,26 @@
 title: ""
 ---
 
-::: {.column-page}
+<h1 style="margin-bottom: 0.2rem;">Caleb Kwon</h1>
+<p style="margin-top: 0; margin-bottom: 1rem;"><strong>Assistant Professor</strong></p>
 
-:::: {.columns}
-
-::: {.column width="30%"}
-![](profile.jpg){.profile-photo}
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="65%"}
-
-# Caleb Kwon
-
-**Assistant Professor**
-Information, Risk, and Operations Management
-McCombs School of Business, The University of Texas at Austin
-
-[caleb.kwon@mccombs.utexas.edu](mailto:caleb.kwon@mccombs.utexas.edu)
-
-:::
-
-::::
-
-:::
+<div style="display: flex; gap: 2rem; align-items: flex-start;">
+<div>
+<img src="profile.jpg" style="max-width: 200px; border-radius: 8px;">
+</div>
+<div style="line-height: 1.5;">
+<span>Department of Information, Risk, and Operations Management</span><br>
+<span>McCombs School of Business</span><br>
+<span>The University of Texas at Austin</span><br><br>
+✉ <a href="mailto:caleb.kwon@mccombs.utexas.edu">caleb.kwon@mccombs.utexas.edu</a>
+</div>
+</div>
 
 ---
 
 ## About
 
-I study **how retailers schedule labor** and the operational and human consequences of scheduling decisions. My research combines large-scale administrative data with field experiments to understand worker productivity, algorithmic scheduling tools, and labor policy.
+I study how retailers schedule labor. My research uses large-scale administrative data to understand worker and store productivity, the value of algorithmic scheduling tools, and the effects of labor policy.
 
 ## Education
 
@@ -43,15 +31,12 @@ I study **how retailers schedule labor** and the operational and human consequen
 - **B.A., Economics** — Simon Fraser University (2015)
   - Dean's Medal, Rank 1 of ~2,500
 
-## Recognition
+## Awards and Honours
 
-- 1st Place, POMS College of Sustainable Operations Best Student Paper (2021)
-- McCombs Research Excellence Grant
-- Teaching Award, University of Chicago Booth (Executive Education)
-- Dean's Medal, Simon Fraser University — Rank 1 of ~2,500 students
+- UT Austin McCombs Research Excellence Grant, $15,000 (2024)
+- Teaching Award, Booth School of Business Executive Education (2023)
+- Winner: POMS College of Sustainable Operations, Best Student Paper Competition (2021)
+- Dean's Convocation Medal for the top graduate in the Faculty of Arts and Social Sciences, Simon Fraser University
+- Jack L. Knetsch Award for Best Thesis in Economics, Simon Fraser University
+- Cliff Lloyd Memorial Award for Highest GPA in Economics, Simon Fraser University
 
-## Hiring Research Assistants
-
-I am looking for undergraduate research assistants interested in operations management, data analysis, and AI applications in retail. Strong candidates will have completed coursework in statistics, programming (R or Python), or econometrics.
-
-If interested, please email me with your resume and a brief description of your research interests.
