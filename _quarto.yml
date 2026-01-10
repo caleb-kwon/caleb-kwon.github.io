@@ -8,6 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
     right:
       - icon: envelope
         href: mailto:caleb.kwon@mccombs.utexas.edu
