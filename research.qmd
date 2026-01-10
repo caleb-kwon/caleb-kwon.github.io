@@ -1,0 +1,62 @@
+---
+title: "Research"
+---
+
+## Book Chapters
+
+[Retail Labor Scheduling and the Potential Role of AI (2025)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5332042) with A. Raman.
+AI in Supply Chains: Perspectives from Global Thought Leaders (co-edited by Maxime Cohen and Tinglong Dai)
+Forthcoming in *Springer Series in Supply Chain Management*
+
+---
+
+## Academic Articles
+
+### Published
+
+[Estimation of the Number of Components in Nonparametric Finite Mixture Models (2021)](http://arxiv.org/abs/1908.03656) with E. Mbakop.
+*The Annals of Statistics* 49(4): 2178-2205
+
+[The Effects of Fair Workweek Laws on Worker Schedules: Evidence from Los Angeles (2025)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4609755) with A. Raman.
+Forthcoming in *Management Science*
+
+### Under Review
+
+[Disclosure-Driven Social Engagement in Supply Chains (2021)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=3900182) with A. Wu.
+[1st Place POMS College of Sustainable Operations: Best Student Paper (2021)]{.award}
+Major Revision, *Manufacturing & Service Operations Management*
+
+[Human-Algorithm Interactions in Labor Scheduling Decisions (2024)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4773773) with A. Raman and J. Tamayo.
+Major Revision, *Management Science*
+
+[Employee Time-Off Request Management in Retail Stores (2024)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4990089)
+Resubmitted after Reject and Resubmit, *Management Science*
+
+[What Makes Scheduling "Responsible"? Evidence from 280 Million Shifts Across 20 Retailers (2025)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5437055) with B. Apaolaza and S. Gallino.
+Major Revision, *Manufacturing & Service Operations Management*
+
+Worker States, Transitions, and Managerial Consequences (2025) with S. Gallino and A. Raman
+Reject and Resubmit, *Production and Operations Management*
+
+[Supply Chain Management in the AI Era: A Vision Statement from the Operations Management Community (2025)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5792542) with M. Cohen, T. Dai, G. Peraki et al.
+Minor Revision, *Manufacturing & Service Operations Management*
+
+---
+
+## Working Papers
+
+[The Effects of Inconsistent Work Schedules on Employee Lateness and Absenteeism (2023)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4592763) with A. Raman.
+
+[The Effects of Fair Workweek Laws on Store Performance: Evidence from Los Angeles (2024)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4351186)
+
+[The Impact of Input Inaccuracy on Leveraging AI Tools: Evidence from Algorithmic Labor Scheduling (2025)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4602747) with A. Raman and A. Moreno.
+
+---
+
+## Practitioner Articles
+
+[Bad Data, Bad Results: When AI Struggles to Create Staff Schedules (2025)](https://www.library.hbs.edu/working-knowledge/bad-data-bad-results-when-ai-struggles-to-create-staff-schedules) with A. Moreno and A. Raman.
+*Harvard Business School Working Knowledge*
+
+[How One Late Employee Can Hurt Your Business: Data from 25 Million Timecards (2023)](https://www.library.hbs.edu/working-knowledge/how-one-late-employee-can-hurt-your-business) with A. Raman.
+*Harvard Business School Working Knowledge*

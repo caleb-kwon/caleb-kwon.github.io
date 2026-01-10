@@ -1,0 +1,57 @@
+---
+title: ""
+---
+
+::: {.column-page}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](profile.jpg){.profile-photo}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="65%"}
+
+# Caleb Kwon
+
+**Assistant Professor**
+Information, Risk, and Operations Management
+McCombs School of Business, The University of Texas at Austin
+
+[caleb.kwon@mccombs.utexas.edu](mailto:caleb.kwon@mccombs.utexas.edu)
+
+:::
+
+::::
+
+:::
+
+---
+
+## About
+
+I study **how retailers schedule labor** and the operational and human consequences of scheduling decisions. My research combines large-scale administrative data with field experiments to understand worker productivity, algorithmic scheduling tools, and labor policy.
+
+## Education
+
+- **Ph.D., Business Administration** — Harvard University (2024)
+  - Committee Chair: Ananth Raman
+- **M.A., Economics** — Northwestern University (2017)
+- **B.A., Economics** — Simon Fraser University (2015)
+  - Dean's Medal, Rank 1 of ~2,500
+
+## Recognition
+
+- 1st Place, POMS College of Sustainable Operations Best Student Paper (2021)
+- McCombs Research Excellence Grant
+- Teaching Award, University of Chicago Booth (Executive Education)
+- Dean's Medal, Simon Fraser University — Rank 1 of ~2,500 students
+
+## Hiring Research Assistants
+
+I am looking for undergraduate research assistants interested in operations management, data analysis, and AI applications in retail. Strong candidates will have completed coursework in statistics, programming (R or Python), or econometrics.
+
+If interested, please email me with your resume and a brief description of your research interests.

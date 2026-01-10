@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Caleb Kwon"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:caleb.kwon@mccombs.utexas.edu
+      - icon: google
+        href: https://scholar.google.com/citations?user=YOUR_ID
+  page-footer:
+    center: "Caleb Kwon | Assistant Professor | UT Austin McCombs"
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
