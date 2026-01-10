@@ -13,8 +13,6 @@ website:
         href: mailto:caleb.kwon@mccombs.utexas.edu
       - icon: google
         href: https://scholar.google.com/citations?user=mBw3GmIAAAAJ&hl=en
-  page-footer:
-    center: "Caleb Kwon | Assistant Professor | UT Austin McCombs"
 
 format:
   html:
