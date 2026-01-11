@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download CV (PDF)"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -40,6 +33,13 @@
     "title": "Research",
     "section": "Practitioner Articles",
     "text": "Practitioner Articles\n\nBad Data, Bad Results: When AI Struggles to Create Staff Schedules (2025) with A. Moreno and A. Raman.\nHarvard Business School Working Knowledge\n\n\n\nHow One Late Employee Can Hurt Your Business: Data from 25 Million Timecards (2023) with A. Raman.\nHarvard Business School Working Knowledge"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)"
   },
   {
     "objectID": "index.html",

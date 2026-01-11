@@ -6,6 +6,9 @@ project:
 
 website:
   title: "Caleb Kwon"
+  google-analytics:
+    tracking-id: "G-4XFXNXT3RJ"
+    anonymize-ip: false
   navbar:
     left:
       - href: index.qmd
