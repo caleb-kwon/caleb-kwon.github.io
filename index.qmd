@@ -2,14 +2,13 @@
 title: ""
 ---
 
-<h1 style="margin-bottom: 0.2rem;">Caleb Kwon</h1>
-<p style="margin-top: 0; margin-bottom: 1rem;"><strong>Assistant Professor</strong></p>
-
 <div style="display: flex; gap: 2rem; align-items: flex-start;">
 <div>
 <img src="profile.jpg" style="max-width: 200px; border-radius: 8px;">
 </div>
 <div style="line-height: 1.5;">
+<h1 style="margin-top: 0; margin-bottom: 0.3rem;">Caleb Kwon</h1>
+<span>Assistant Professor</span><br>
 <span>Department of Information, Risk, and Operations Management</span><br>
 <span>McCombs School of Business</span><br>
 <span>The University of Texas at Austin</span><br><br>
