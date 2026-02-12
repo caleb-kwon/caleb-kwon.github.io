@@ -72,7 +72,20 @@ a:hover {
 
 /* Remove excess white space on short pages */
 .quarto-container {
-  min-height: auto !important;
+  min-height: 0 !important;
+}
+
+#quarto-content.page-rows-contents {
+  grid-template-rows: [content-top] auto [content-bottom] auto [page-bottom] !important;
+}
+
+body.nav-fixed {
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+body.nav-fixed > #quarto-content {
+  min-height: 0 !important;
 }
 
 /* Footer */
