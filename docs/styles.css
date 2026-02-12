@@ -70,9 +70,18 @@ a:hover {
   font-weight: 600;
 }
 
+/* Remove excess white space on short pages */
+#quarto-content > * {
+  min-height: auto !important;
+}
+
+main.content {
+  min-height: auto !important;
+}
+
 /* Footer */
 .page-footer {
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 1rem 0;
   font-size: 0.9rem;
   color: #666;
