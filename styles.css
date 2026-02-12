@@ -71,27 +71,8 @@ a:hover {
 }
 
 /* Remove excess white space on short pages */
-html, body {
-  height: auto !important;
-  min-height: 0 !important;
-}
-
-#quarto-content {
-  min-height: 0 !important;
-  grid-template-rows: auto !important;
-}
-
-#quarto-content > * {
+.quarto-container {
   min-height: auto !important;
-}
-
-main.content {
-  min-height: auto !important;
-  padding-bottom: 0 !important;
-}
-
-.page-rows-contents {
-  grid-template-rows: auto !important;
 }
 
 /* Footer */
