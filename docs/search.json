@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download CV (PDF)"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -42,6 +35,13 @@
     "text": "Practitioner Articles\n\nBad Data, Bad Results: When AI Struggles to Create Staff Schedules (2025) with A. Moreno and A. Raman.\nHarvard Business School Working Knowledge\n\n\n\nHow One Late Employee Can Hurt Your Business: Data from 25 Million Timecards (2023) with A. Raman.\nHarvard Business School Working Knowledge"
   },
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nCaleb Kwon\n",
@@ -61,12 +61,5 @@
     "title": "\nCaleb Kwon\n",
     "section": "Education",
     "text": "Education\n\nPh.D., Business Administration — Harvard University (2024)\n\nCommittee Chair: Ananth Raman\n\nM.A., Economics — Northwestern University (2017)\nB.A., Economics — Simon Fraser University (2015)\n\nDean’s Medal, Rank 1 of ~2,500"
-  },
-  {
-    "objectID": "index.html#awards-and-honours",
-    "href": "index.html#awards-and-honours",
-    "title": "\nCaleb Kwon\n",
-    "section": "Awards and Honours",
-    "text": "Awards and Honours\n\nUT Austin McCombs Research Excellence Grant, $15,000 (2024)\nTeaching Award, Booth School of Business Executive Education (2023)\nWinner: POMS College of Sustainable Operations, Best Student Paper Competition (2021)\nDean’s Convocation Medal for the top graduate in the Faculty of Arts and Social Sciences, Simon Fraser University\nJack L. Knetsch Award for Best Thesis in Economics, Simon Fraser University\nCliff Lloyd Memorial Award for Highest GPA in Economics, Simon Fraser University"
   }
 ]
