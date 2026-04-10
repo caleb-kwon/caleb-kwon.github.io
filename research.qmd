@@ -30,8 +30,8 @@ In M. C. Cohen and T. Dai (Eds.), AI in Supply Chains: Perspectives from Global 
 </p>
 
 <p>
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5792542">Supply Chain Management in the AI Era: A Vision Statement from the Operations Management Community (2025)</a> with M. Cohen, T. Dai, G. Peraki et al.<br>
-<u><em>Manufacturing & Service Operations Management</em></u> (Forthcoming)
+<a href="https://pubsonline.informs.org/doi/10.1287/msom.2025.1065">Supply Chain Management in the AI Era: A Vision Statement from the Operations Management Community (2026)</a> with M. Cohen, T. Dai, G. Peraki et al.<br>
+<u><em>Manufacturing & Service Operations Management</em></u>
 </p>
 ```
 
