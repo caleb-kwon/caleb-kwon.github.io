@@ -25,13 +25,13 @@ In M. C. Cohen and T. Dai (Eds.), AI in Supply Chains: Perspectives from Global 
 </p>
 
 <p>
-<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4609755">The Effects of Fair Workweek Laws on Worker Schedules: Evidence from Los Angeles (2025)</a> with A. Raman.<br>
-<u><em>Management Science</em></u> (Forthcoming)
+<a href="https://pubsonline.informs.org/doi/10.1287/msom.2025.1065">Supply Chain Management in the AI Era: A Vision Statement from the Operations Management Community (2026)</a> with M. Cohen, T. Dai, G. Peraki et al.<br>
+<u><em>Manufacturing & Service Operations Management</em></u>
 </p>
 
 <p>
-<a href="https://pubsonline.informs.org/doi/10.1287/msom.2025.1065">Supply Chain Management in the AI Era: A Vision Statement from the Operations Management Community (2026)</a> with M. Cohen, T. Dai, G. Peraki et al.<br>
-<u><em>Manufacturing & Service Operations Management</em></u>
+<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4609755">The Effects of Fair Workweek Laws on Worker Schedules: Evidence from Los Angeles (2025)</a> with A. Raman.<br>
+<u><em>Management Science</em></u> (Forthcoming)
 </p>
 ```
 
