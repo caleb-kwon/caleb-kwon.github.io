@@ -40,7 +40,6 @@ title: ""
       <h2>Research Areas</h2>
       <p>Retail operations</p>
       <p>Workforce scheduling</p>
-      <p>Human-algorithm interaction</p>
       <p>Labor regulation</p>
     </div>
   </section>
