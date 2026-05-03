@@ -1,48 +1,74 @@
 # Caleb Kwon - Academic Website
 
-Quarto-based academic website. Auto-deploys to GitHub Pages.
+Quarto-based academic website deployed through GitHub Pages at `calebkwon.com`.
 
 ## Quick Start
 
-### 1. Install Quarto (one-time)
+Install Quarto once:
+
 ```bash
-# Mac
 brew install quarto
-
-# Or download from: https://quarto.org/docs/get-started/
 ```
 
-### 2. Add your profile photo
-Place a photo named `profile.jpg` in this folder.
+Preview locally:
 
-### 3. Preview locally
 ```bash
-cd website
-quarto preview
+cd /Users/ck29972/Dropbox/Resume-Claude/website
+quarto preview index.qmd
 ```
 
-### 4. Deploy to GitHub Pages
+## Updating The Site
+
+Do not run bare `quarto render` in this Dropbox-synced folder. Render individual files instead:
+
 ```bash
-quarto render
-git add .
+quarto render index.qmd
+quarto render research.qmd
+```
+
+Render `cv.qmd` only when the CV page itself changes. After CV PDF changes, copy the PDF into the published folders:
+
+```bash
+cp ../main.pdf main.pdf
+cp ../main.pdf docs/main.pdf
+```
+
+Commit and push from `website/`:
+
+```bash
+git add -A
 git commit -m "Update site"
 git push
 ```
 
+## Homepage Notes
+
+- `index.qmd` is the homepage source.
+- `new_photo.png` is the active homepage portrait; `profile.jpg` is legacy.
+- `styles.css` contains the main site styling.
+- `homepage-fixes.css` is intentionally loaded after `styles.css` to override cached/older homepage rules on the live site.
+- `archive/index-old.qmd` preserves the pre-redesign homepage.
+
 ## Updating Publications
 
-Edit `main.tex` (source of truth), then run Claude Code:
-> "Update my website publications from main.tex"
+Edit the source publication entries in `main.tex` first, then update `research.qmd` to match and render:
+
+```bash
+quarto render research.qmd
+```
 
 ## File Structure
 
-```
+```text
 website/
-├── _quarto.yml    # Site config
-├── index.qmd      # Home page
-├── research.qmd   # Publications
-├── cv.qmd         # CV page
-├── styles.css     # Custom styling
-├── main.pdf       # CV PDF
-└── profile.jpg    # Your photo
+├── _quarto.yml          # Site config and CSS includes
+├── index.qmd            # Home page
+├── research.qmd         # Publications
+├── cv.qmd               # CV page
+├── styles.css           # Main styling
+├── homepage-fixes.css   # Homepage override/cache-busting styling
+├── new_photo.png        # Active homepage portrait
+├── main.pdf             # CV PDF
+├── archive/             # Archived old homepage source
+└── docs/                # Rendered GitHub Pages output
 ```
