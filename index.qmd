@@ -2,26 +2,73 @@
 title: ""
 ---
 
-<div style="display: flex; gap: 2rem; align-items: flex-start;">
-<div>
-<img src="profile.jpg" style="max-width: 200px; border-radius: 8px;">
-</div>
-<div style="line-height: 1.5;">
-<h1 style="margin-top: 0; margin-bottom: 0.3rem;">Caleb Kwon</h1>
-<span>Assistant Professor</span><br>
-<span>Department of Information, Risk, and Operations Management</span><br>
-<span>McCombs School of Business</span><br>
-<span>The University of Texas at Austin</span><br><br>
-✉ <a href="mailto:caleb.kwon@mccombs.utexas.edu">caleb.kwon@mccombs.utexas.edu</a><br><br>
-<strong style="font-size: 0.9em;">Education</strong><br>
-<span style="font-size: 0.9em;">Ph.D., Business Administration — Harvard University (2024)<br>
-M.A., Economics — Northwestern University (2017)<br>
-B.A., Economics — Simon Fraser University (2015)</span>
-</div>
-</div>
+```{=html}
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-name">
+    <div class="home-photo-wrap">
+      <img src="new_photo.png" alt="Caleb Kwon" class="home-photo">
+    </div>
 
----
+    <div class="home-intro">
+      <p class="home-kicker">Operations management / retail labor / algorithms</p>
+      <div class="home-name" id="home-name" role="heading" aria-level="1">Caleb Kwon</div>
+      <p class="home-title">
+        Assistant Professor<br>
+        Department of Information, Risk, and Operations Management<br>
+        McCombs School of Business<br>
+        The University of Texas at Austin
+      </p>
+      <p class="home-summary">
+        My research uses large-scale administrative data to study worker and store productivity, scheduling algorithms, and labor policy.
+      </p>
+      <div class="home-actions" aria-label="Primary links">
+        <a class="home-action primary" href="research.html">Research</a>
+        <a class="home-action" href="cv.html">CV</a>
+        <a class="home-action icon-link" href="mailto:caleb.kwon@mccombs.utexas.edu">
+          <i class="bi bi-envelope" aria-hidden="true"></i>
+          Email
+        </a>
+      </div>
+    </div>
+  </section>
 
-## About
+  <section class="home-info" aria-label="Profile details">
+    <div class="home-info-block">
+      <h2>Education</h2>
+      <p>Ph.D., Business Administration &mdash; Harvard University (2024)</p>
+      <p>M.A., Economics &mdash; Northwestern University (2017)</p>
+      <p>B.A., Economics &mdash; Simon Fraser University (2015)</p>
+    </div>
 
-I study how retailers schedule labor. My research uses large-scale administrative data to understand worker and store productivity, the value of algorithmic scheduling tools, and the effects of labor policy.
+    <div class="home-info-block">
+      <h2>Research Areas</h2>
+      <p>Retail operations</p>
+      <p>Workforce scheduling</p>
+      <p>Human-algorithm interaction</p>
+      <p>Labor regulation</p>
+    </div>
+  </section>
+
+  <section class="home-research" aria-labelledby="selected-research">
+    <div class="section-label">Selected Research</div>
+    <h2 id="selected-research">Scheduling decisions, algorithms, and labor policy in retail operations.</h2>
+
+    <div class="research-list">
+      <a class="research-card" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4773773">
+        <span class="research-title">Human-Algorithm Interactions in Labor Scheduling Decisions</span>
+        <span class="research-meta">with A. Raman and J. Tamayo / Management Science, major revision</span>
+      </a>
+
+      <a class="research-card" href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=4609755">
+        <span class="research-title">The Effects of Fair Workweek Laws on Worker Schedules</span>
+        <span class="research-meta">with A. Raman / Management Science, forthcoming</span>
+      </a>
+
+      <a class="research-card" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5437055">
+        <span class="research-title">What Makes Scheduling Responsible?</span>
+        <span class="research-meta">with B. Apaolaza and S. Gallino / Manufacturing &amp; Service Operations Management, major revision</span>
+      </a>
+    </div>
+  </section>
+</div>
+```
