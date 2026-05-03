@@ -1,0 +1,49 @@
+/* Cache-busting homepage overrides for the May 2026 layout refresh. */
+
+.home-photo-wrap::before {
+  content: none !important;
+  display: none !important;
+}
+
+.home-photo {
+  box-shadow: none !important;
+}
+
+.home-hero {
+  align-items: start;
+}
+
+.home-name {
+  font-size: clamp(1.55rem, 2.6vw, 2.15rem) !important;
+  line-height: 1.04;
+}
+
+.home-info-block:first-child p:first-of-type {
+  white-space: nowrap;
+}
+
+.home-info {
+  grid-template-columns: minmax(430px, 1.1fr) minmax(230px, 0.9fr);
+  column-gap: clamp(1.25rem, 3vw, 3rem);
+}
+
+@media (max-width: 768px) {
+  .home-name {
+    font-size: clamp(1.65rem, 7vw, 1.95rem) !important;
+  }
+
+  .home-intro,
+  .home-info,
+  .home-research {
+    max-width: 100%;
+  }
+
+  .home-info {
+    grid-template-columns: 1fr;
+  }
+
+  .home-info-block:first-child p:first-of-type {
+    font-size: clamp(0.78rem, 2.4vw, 0.95rem);
+    letter-spacing: 0;
+  }
+}
