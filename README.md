@@ -49,6 +49,19 @@ git push
 - `homepage-fixes.css` is intentionally loaded after `styles.css` to override cached/older homepage rules on the live site.
 - `archive/index-old.qmd` preserves the pre-redesign homepage.
 
+## Tracking
+
+RB2B visitor identification tracking was installed on May 26, 2026.
+
+- Source snippet: `_includes/rb2b.html`
+- Site-wide Quarto include: `_quarto.yml` under `format.html.include-in-header`
+- Rendered pages updated directly: `docs/index.html`, `docs/research.html`, and `docs/cv.html`
+- RB2B key: `1N5W0H75JDO5`
+
+This is a direct global-header install, not a Google Tag Manager install. The site uses Quarto's Google Analytics setting, which emits `gtag.js`; it does not currently define a GTM container. If a GTM container is added later, do not also fire the same RB2B script through GTM unless the direct header include is removed.
+
+When Quarto is available, render individual pages only. A page render should reinsert `_includes/rb2b.html` into the HTML header.
+
 ## Updating Publications
 
 Edit the source publication entries in `main.tex` first, then update `research.qmd` to match and render:
@@ -62,6 +75,7 @@ quarto render research.qmd
 ```text
 website/
 ├── _quarto.yml          # Site config and CSS includes
+├── _includes/rb2b.html  # RB2B tracking snippet included in every HTML header
 ├── index.qmd            # Home page
 ├── research.qmd         # Publications
 ├── cv.qmd               # CV page

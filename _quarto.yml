@@ -30,4 +30,6 @@ format:
     css:
       - styles.css
       - homepage-fixes.css
+    include-in-header:
+      - _includes/rb2b.html
     toc: false
