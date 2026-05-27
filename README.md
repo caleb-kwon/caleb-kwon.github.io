@@ -62,6 +62,60 @@ This is a direct global-header install, not a Google Tag Manager install. The si
 
 When Quarto is available, render individual pages only. A page render should reinsert `_includes/rb2b.html` into the HTML header.
 
+### Removing RB2B
+
+Removing RB2B from the website means removing the site code and then updating the rendered GitHub Pages output. This is separate from any account-side RB2B cancellation or dashboard cleanup.
+
+Removing RB2B does not remove Google Analytics. Leave the Quarto `google-analytics` setting in place unless the goal is also to remove GA.
+
+1. Remove the header include from `_quarto.yml`:
+
+```yaml
+format:
+  html:
+    include-in-header:
+      - _includes/rb2b.html
+```
+
+If RB2B is the only header include, remove the entire `include-in-header` block.
+
+2. Delete `_includes/rb2b.html`.
+
+3. Render individual pages only:
+
+```bash
+quarto render index.qmd
+quarto render research.qmd
+quarto render cv.qmd
+```
+
+4. Verify the public HTML no longer contains RB2B:
+
+```bash
+rg -n "reb2b|1N5W0H75JDO5|ddwl4m2hdecbv" _quarto.yml docs/*.html
+```
+
+This command should return no matches. The README may still mention RB2B for historical documentation.
+
+5. Commit and push from `website/`:
+
+```bash
+git add _quarto.yml docs/index.html docs/research.html docs/cv.html docs/search.json
+git add -u _includes/rb2b.html
+git commit -m "Remove RB2B tracking"
+git push
+```
+
+6. After GitHub Pages refreshes, verify the live site:
+
+```bash
+curl -fsSL https://calebkwon.com | rg "reb2b|1N5W0H75JDO5|ddwl4m2hdecbv"
+```
+
+This should return no matches. If the site still shows RB2B immediately after pushing, wait a few minutes or use a cache-busting query string before concluding the removal failed.
+
+To fully eliminate RB2B beyond the website code, also disable or delete the relevant site/property in the RB2B dashboard. Removing the website script stops new page loads from firing RB2B; dashboard cleanup prevents accidental future reuse.
+
 ## Updating Publications
 
 Edit the source publication entries in `main.tex` first, then update `research.qmd` to match and render:
