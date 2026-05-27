@@ -124,6 +124,13 @@ Edit the source publication entries in `main.tex` first, then update `research.q
 quarto render research.qmd
 ```
 
+### Publication Display Notes
+
+- On `research.qmd`, "The Effects of Fair Workweek Laws on Worker Schedules" is listed in Published as a Management Science paper with no `(Forthcoming)` label.
+- In the Published section, it should appear before "Supply Chain Management in the AI Era."
+- On `index.qmd`, the selected-research card for the worker-schedules paper should read `with A. Raman / Management Science`, also with no forthcoming label.
+- After publication display changes, render the affected page plus `index.qmd` if the homepage card changed, then commit the rendered `docs/` output and `docs/search.json`.
+
 ## File Structure
 
 ```text
